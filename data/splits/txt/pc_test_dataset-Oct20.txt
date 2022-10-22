@@ -1,0 +1,4900 @@
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: that sounds like a lot of work!
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: that sounds like a lot of work!
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: that sounds like a lot of work!
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: that sounds like a lot of work!
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Facts:
+Person 1's statement: i just bought a house recently.
+Person 1's statement: i'm married with two kids.
+Person 1's statement: i see the rolling stones in concert every year.
+Person 1's statement: i'm an economics major.
+Person 1's statement: i eat a raw diet.
+
+Generated response: 
+Person 1: that sounds like a lot of work!
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Facts:
+Person 1's statement: i just bought a house recently.
+Person 1's statement: i'm married with two kids.
+Person 1's statement: i see the rolling stones in concert every year.
+Person 1's statement: i'm an economics major.
+Person 1's statement: i eat a raw diet.
+
+Generated response: 
+Person 1: that sounds like a lot of work!
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: its a good pasttime. i also teach special ed, so cosmetics is a nice break.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: its a good pasttime. i also teach special ed, so cosmetics is a nice break.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: its a good pasttime. i also teach special ed, so cosmetics is a nice break.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: its a good pasttime. i also teach special ed, so cosmetics is a nice break.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Facts:
+Person 1's statement: i just bought a house recently.
+Person 1's statement: i'm married with two kids.
+Person 1's statement: i see the rolling stones in concert every year.
+Person 1's statement: i'm an economics major.
+Person 1's statement: i eat a raw diet.
+
+Generated response: 
+Person 1: its a good pasttime. i also teach special ed, so cosmetics is a nice break.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Facts:
+Person 1's statement: i just bought a house recently.
+Person 1's statement: i'm married with two kids.
+Person 1's statement: i see the rolling stones in concert every year.
+Person 1's statement: i'm an economics major.
+Person 1's statement: i eat a raw diet.
+
+Generated response: 
+Person 1: its a good pasttime. i also teach special ed, so cosmetics is a nice break.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: oh wow. that is a lot of work.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: oh wow. that is a lot of work.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: oh wow. that is a lot of work.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: oh wow. that is a lot of work.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Facts:
+Person 1's statement: i just bought a house recently.
+Person 1's statement: i'm married with two kids.
+Person 1's statement: i see the rolling stones in concert every year.
+Person 1's statement: i'm an economics major.
+Person 1's statement: i eat a raw diet.
+
+Generated response: 
+Person 1: oh wow. that is a lot of work.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Facts:
+Person 1's statement: i just bought a house recently.
+Person 1's statement: i'm married with two kids.
+Person 1's statement: i see the rolling stones in concert every year.
+Person 1's statement: i'm an economics major.
+Person 1's statement: i eat a raw diet.
+
+Generated response: 
+Person 1: oh wow. that is a lot of work.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: i am a nurse, i love to cook.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: i am a nurse, i love to cook.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: i am a nurse, i love to cook.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: i am a nurse, i love to cook.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Facts:
+Person 1's statement: i just bought a house recently.
+Person 1's statement: i'm married with two kids.
+Person 1's statement: i see the rolling stones in concert every year.
+Person 1's statement: i'm an economics major.
+Person 1's statement: i eat a raw diet.
+
+Generated response: 
+Person 1: i am a nurse, i love to cook.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Facts:
+Person 1's statement: i just bought a house recently.
+Person 1's statement: i'm married with two kids.
+Person 1's statement: i see the rolling stones in concert every year.
+Person 1's statement: i'm an economics major.
+Person 1's statement: i eat a raw diet.
+
+Generated response: 
+Person 1: i am a nurse, i love to cook.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: that's not too bad. my house was expensive, but luckily it didn't need any work!
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: that's not too bad. my house was expensive, but luckily it didn't need any work!
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: that's not too bad. my house was expensive, but luckily it didn't need any work!
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Generated response: 
+Person 1: that's not too bad. my house was expensive, but luckily it didn't need any work!
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Facts:
+Person 1's statement: i just bought a house recently.
+Person 1's statement: i'm married with two kids.
+Person 1's statement: i see the rolling stones in concert every year.
+Person 1's statement: i'm an economics major.
+Person 1's statement: i eat a raw diet.
+
+Generated response: 
+Person 1: that's not too bad. my house was expensive, but luckily it didn't need any work!
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. that is young. you must be rich.
+Person 2: no not rich just was smart with my money and bought fix upper
+Person 1: that is smart. what kind of work does your house need?
+Person 2: mainly cosmetics stuff. we had to tear out all carpet and re drywall every room
+
+Facts:
+Person 1's statement: i just bought a house recently.
+Person 1's statement: i'm married with two kids.
+Person 1's statement: i see the rolling stones in concert every year.
+Person 1's statement: i'm an economics major.
+Person 1's statement: i eat a raw diet.
+
+Generated response: 
+Person 1: that's not too bad. my house was expensive, but luckily it didn't need any work!
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. very good
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: yeah that app is really cool!
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: yeah that app is really cool!
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: yeah that app is really cool!
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: yeah that app is really cool!
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Facts:
+Person 1's statement: my current goal is to run a k.
+Person 1's statement: i make straight as in school.
+Person 1's statement: i won homecoming queen this year.
+Person 1's statement: i'm currently in high school.
+Person 1's statement: when i grow up i want to be a physical therapist.
+
+Generated response: 
+Person 1: yeah that app is really cool!
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Facts:
+Person 1's statement: my current goal is to run a k.
+Person 1's statement: i make straight as in school.
+Person 1's statement: i won homecoming queen this year.
+Person 1's statement: i'm currently in high school.
+Person 1's statement: when i grow up i want to be a physical therapist.
+
+Generated response: 
+Person 1: yeah that app is really cool!
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: are you currently in school?
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: are you currently in school?
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: are you currently in school?
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: are you currently in school?
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Facts:
+Person 1's statement: my current goal is to run a k.
+Person 1's statement: i make straight as in school.
+Person 1's statement: i won homecoming queen this year.
+Person 1's statement: i'm currently in high school.
+Person 1's statement: when i grow up i want to be a physical therapist.
+
+Generated response: 
+Person 1: are you currently in school?
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Facts:
+Person 1's statement: my current goal is to run a k.
+Person 1's statement: i make straight as in school.
+Person 1's statement: i won homecoming queen this year.
+Person 1's statement: i'm currently in high school.
+Person 1's statement: when i grow up i want to be a physical therapist.
+
+Generated response: 
+Person 1: are you currently in school?
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: i am not sure what that is!
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: i am not sure what that is!
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: i am not sure what that is!
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: i am not sure what that is!
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Facts:
+Person 1's statement: my current goal is to run a k.
+Person 1's statement: i make straight as in school.
+Person 1's statement: i won homecoming queen this year.
+Person 1's statement: i'm currently in high school.
+Person 1's statement: when i grow up i want to be a physical therapist.
+
+Generated response: 
+Person 1: i am not sure what that is!
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Facts:
+Person 1's statement: my current goal is to run a k.
+Person 1's statement: i make straight as in school.
+Person 1's statement: i won homecoming queen this year.
+Person 1's statement: i'm currently in high school.
+Person 1's statement: when i grow up i want to be a physical therapist.
+
+Generated response: 
+Person 1: i am not sure what that is!
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: i like to go to the gym and listen to music.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: i like to go to the gym and listen to music.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: i like to go to the gym and listen to music.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: i like to go to the gym and listen to music.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Facts:
+Person 1's statement: my current goal is to run a k.
+Person 1's statement: i make straight as in school.
+Person 1's statement: i won homecoming queen this year.
+Person 1's statement: i'm currently in high school.
+Person 1's statement: when i grow up i want to be a physical therapist.
+
+Generated response: 
+Person 1: i like to go to the gym and listen to music.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Facts:
+Person 1's statement: my current goal is to run a k.
+Person 1's statement: i make straight as in school.
+Person 1's statement: i won homecoming queen this year.
+Person 1's statement: i'm currently in high school.
+Person 1's statement: when i grow up i want to be a physical therapist.
+
+Generated response: 
+Person 1: i like to go to the gym and listen to music.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: maybe! i'm also pretty smart, i make straight as in school.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: maybe! i'm also pretty smart, i make straight as in school.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: maybe! i'm also pretty smart, i make straight as in school.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Generated response: 
+Person 1: maybe! i'm also pretty smart, i make straight as in school.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Facts:
+Person 1's statement: my current goal is to run a k.
+Person 1's statement: i make straight as in school.
+Person 1's statement: i won homecoming queen this year.
+Person 1's statement: i'm currently in high school.
+Person 1's statement: when i grow up i want to be a physical therapist.
+
+Generated response: 
+Person 1: maybe! i'm also pretty smart, i make straight as in school.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's cool! i won homecoming queen
+Person 2: wow! that's impressive! i bet you are good looking!
+Person 1: yes i am quite beautiful
+Person 2: add me on snapchat! i love the app
+
+Facts:
+Person 1's statement: my current goal is to run a k.
+Person 1's statement: i make straight as in school.
+Person 1's statement: i won homecoming queen this year.
+Person 1's statement: i'm currently in high school.
+Person 1's statement: when i grow up i want to be a physical therapist.
+
+Generated response: 
+Person 1: maybe! i'm also pretty smart, i make straight as in school.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. very good
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: why did you choose pink out of all colors?
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: why did you choose pink out of all colors?
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: why did you choose pink out of all colors?
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: why did you choose pink out of all colors?
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Facts:
+Person 1's statement: i wear a motorbike helmet to protect my head.
+Person 1's statement: my main transportation is my motorbike.
+Person 1's statement: i've light skin with big brown eyes.
+Person 1's statement: its red with blue stripe so it shiny when i race.
+
+Generated response: 
+Person 1: why did you choose pink out of all colors?
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Facts:
+Person 1's statement: i wear a motorbike helmet to protect my head.
+Person 1's statement: my main transportation is my motorbike.
+Person 1's statement: i've light skin with big brown eyes.
+Person 1's statement: its red with blue stripe so it shiny when i race.
+
+Generated response: 
+Person 1: why did you choose pink out of all colors?
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: your favorite color is pink?
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: your favorite color is pink?
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: your favorite color is pink?
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: your favorite color is pink?
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Facts:
+Person 1's statement: i wear a motorbike helmet to protect my head.
+Person 1's statement: my main transportation is my motorbike.
+Person 1's statement: i've light skin with big brown eyes.
+Person 1's statement: its red with blue stripe so it shiny when i race.
+
+Generated response: 
+Person 1: your favorite color is pink?
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Facts:
+Person 1's statement: i wear a motorbike helmet to protect my head.
+Person 1's statement: my main transportation is my motorbike.
+Person 1's statement: i've light skin with big brown eyes.
+Person 1's statement: its red with blue stripe so it shiny when i race.
+
+Generated response: 
+Person 1: your favorite color is pink?
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: i like to drive my new truck
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: i like to drive my new truck
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: i like to drive my new truck
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: i like to drive my new truck
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Facts:
+Person 1's statement: i wear a motorbike helmet to protect my head.
+Person 1's statement: my main transportation is my motorbike.
+Person 1's statement: i've light skin with big brown eyes.
+Person 1's statement: its red with blue stripe so it shiny when i race.
+
+Generated response: 
+Person 1: i like to drive my new truck
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Facts:
+Person 1's statement: i wear a motorbike helmet to protect my head.
+Person 1's statement: my main transportation is my motorbike.
+Person 1's statement: i've light skin with big brown eyes.
+Person 1's statement: its red with blue stripe so it shiny when i race.
+
+Generated response: 
+Person 1: i like to drive my new truck
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: i like the color red. i like red.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: i like the color red. i like red.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: i like the color red. i like red.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: i like the color red. i like red.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Facts:
+Person 1's statement: i wear a motorbike helmet to protect my head.
+Person 1's statement: my main transportation is my motorbike.
+Person 1's statement: i've light skin with big brown eyes.
+Person 1's statement: its red with blue stripe so it shiny when i race.
+
+Generated response: 
+Person 1: i like the color red. i like red.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Facts:
+Person 1's statement: i wear a motorbike helmet to protect my head.
+Person 1's statement: my main transportation is my motorbike.
+Person 1's statement: i've light skin with big brown eyes.
+Person 1's statement: its red with blue stripe so it shiny when i race.
+
+Generated response: 
+Person 1: i like the color red. i like red.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: cool. my motorbike is red with a blue stripe. it looks shiny when i race!
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: cool. my motorbike is red with a blue stripe. it looks shiny when i race!
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: cool. my motorbike is red with a blue stripe. it looks shiny when i race!
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Generated response: 
+Person 1: cool. my motorbike is red with a blue stripe. it looks shiny when i race!
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Facts:
+Person 1's statement: i wear a motorbike helmet to protect my head.
+Person 1's statement: my main transportation is my motorbike.
+Person 1's statement: i've light skin with big brown eyes.
+Person 1's statement: its red with blue stripe so it shiny when i race.
+
+Generated response: 
+Person 1: cool. my motorbike is red with a blue stripe. it looks shiny when i race!
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: nice! when i wear my motorbike helmet i do feel like a super hero sometimes
+Person 2: can you make time stop while wearing your helmet?
+Person 1: i wish i could but i cant. do you have a motorbike?
+Person 2: no, i have a pink bike though.
+
+Facts:
+Person 1's statement: i wear a motorbike helmet to protect my head.
+Person 1's statement: my main transportation is my motorbike.
+Person 1's statement: i've light skin with big brown eyes.
+Person 1's statement: its red with blue stripe so it shiny when i race.
+
+Generated response: 
+Person 1: cool. my motorbike is red with a blue stripe. it looks shiny when i race!
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. very good
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: yes. i want to go more but no one to stay with 19 dogs.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: yes. i want to go more but no one to stay with 19 dogs.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: yes. i want to go more but no one to stay with 19 dogs.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: yes. i want to go more but no one to stay with 19 dogs.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Facts:
+Person 1's statement: i love dogs.
+Person 1's statement: i live in alabama.
+Person 1's statement: i have three sisters.
+Person 1's statement: i like tacos.
+
+Generated response: 
+Person 1: yes. i want to go more but no one to stay with 19 dogs.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Facts:
+Person 1's statement: i love dogs.
+Person 1's statement: i live in alabama.
+Person 1's statement: i have three sisters.
+Person 1's statement: i like tacos.
+
+Generated response: 
+Person 1: yes. i want to go more but no one to stay with 19 dogs.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: are you an avid runner? i cut my hair short so i could run better
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: are you an avid runner? i cut my hair short so i could run better
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: are you an avid runner? i cut my hair short so i could run better
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: are you an avid runner? i cut my hair short so i could run better
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Facts:
+Person 1's statement: i love dogs.
+Person 1's statement: i live in alabama.
+Person 1's statement: i have three sisters.
+Person 1's statement: i like tacos.
+
+Generated response: 
+Person 1: are you an avid runner? i cut my hair short so i could run better
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Facts:
+Person 1's statement: i love dogs.
+Person 1's statement: i live in alabama.
+Person 1's statement: i have three sisters.
+Person 1's statement: i like tacos.
+
+Generated response: 
+Person 1: are you an avid runner? i cut my hair short so i could run better
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: i live in alabama. i live in alabama.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: i live in alabama. i live in alabama.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: i live in alabama. i live in alabama.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: i live in alabama. i live in alabama.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Facts:
+Person 1's statement: i love dogs.
+Person 1's statement: i live in alabama.
+Person 1's statement: i have three sisters.
+Person 1's statement: i like tacos.
+
+Generated response: 
+Person 1: i live in alabama. i live in alabama.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Facts:
+Person 1's statement: i love dogs.
+Person 1's statement: i live in alabama.
+Person 1's statement: i have three sisters.
+Person 1's statement: i like tacos.
+
+Generated response: 
+Person 1: i live in alabama. i live in alabama.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. bad
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: i love to travel. i love to travel.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: i love to travel. i love to travel.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: i love to travel. i love to travel.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: i love to travel. i love to travel.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Facts:
+Person 1's statement: i love dogs.
+Person 1's statement: i live in alabama.
+Person 1's statement: i have three sisters.
+Person 1's statement: i like tacos.
+
+Generated response: 
+Person 1: i love to travel. i love to travel.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Facts:
+Person 1's statement: i love dogs.
+Person 1's statement: i live in alabama.
+Person 1's statement: i have three sisters.
+Person 1's statement: i like tacos.
+
+Generated response: 
+Person 1: i love to travel. i love to travel.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. bad
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: lucky you! i love the ocean, can't wait to visit it again!
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: lucky you! i love the ocean, can't wait to visit it again!
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: lucky you! i love the ocean, can't wait to visit it again!
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Generated response: 
+Person 1: lucky you! i love the ocean, can't wait to visit it again!
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Facts:
+Person 1's statement: i love dogs.
+Person 1's statement: i live in alabama.
+Person 1's statement: i have three sisters.
+Person 1's statement: i like tacos.
+
+Generated response: 
+Person 1: lucky you! i love the ocean, can't wait to visit it again!
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: wow. my sisters and i love chicken tacos.
+Person 2: those are good too, i live in cali. along the ocean.
+Person 1: i live in middle of alabama. do not get to ocean much.
+Person 2: i could not stand to live inland, the ocean runs through my veins.
+
+Facts:
+Person 1's statement: i love dogs.
+Person 1's statement: i live in alabama.
+Person 1's statement: i have three sisters.
+Person 1's statement: i like tacos.
+
+Generated response: 
+Person 1: lucky you! i love the ocean, can't wait to visit it again!
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i really want to try and lose weight but i have no motivation
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i really want to try and lose weight but i have no motivation
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i really want to try and lose weight but i have no motivation
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i really want to try and lose weight but i have no motivation
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Facts:
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i am overweight and unhappy.
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i spend most of my time on facebook when i am not working.
+Person 1's statement: i don't believe in god.
+
+Generated response: 
+Person 1: i really want to try and lose weight but i have no motivation
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Facts:
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i am overweight and unhappy.
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i spend most of my time on facebook when i am not working.
+Person 1's statement: i don't believe in god.
+
+Generated response: 
+Person 1: i really want to try and lose weight but i have no motivation
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. very good
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i will not. i put god first in everything i do
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i will not. i put god first in everything i do
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i will not. i put god first in everything i do
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i will not. i put god first in everything i do
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Facts:
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i am overweight and unhappy.
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i spend most of my time on facebook when i am not working.
+Person 1's statement: i don't believe in god.
+
+Generated response: 
+Person 1: i will not. i put god first in everything i do
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Facts:
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i am overweight and unhappy.
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i spend most of my time on facebook when i am not working.
+Person 1's statement: i don't believe in god.
+
+Generated response: 
+Person 1: i will not. i put god first in everything i do
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i do not, i am a nurse
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i do not, i am a nurse
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i do not, i am a nurse
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i do not, i am a nurse
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Facts:
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i am overweight and unhappy.
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i spend most of my time on facebook when i am not working.
+Person 1's statement: i don't believe in god.
+
+Generated response: 
+Person 1: i do not, i am a nurse
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Facts:
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i am overweight and unhappy.
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i spend most of my time on facebook when i am not working.
+Person 1's statement: i don't believe in god.
+
+Generated response: 
+Person 1: i do not, i am a nurse
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i do not really have a favorite. i like to go fishing.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i do not really have a favorite. i like to go fishing.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i do not really have a favorite. i like to go fishing.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: i do not really have a favorite. i like to go fishing.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Facts:
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i am overweight and unhappy.
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i spend most of my time on facebook when i am not working.
+Person 1's statement: i don't believe in god.
+
+Generated response: 
+Person 1: i do not really have a favorite. i like to go fishing.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Facts:
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i am overweight and unhappy.
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i spend most of my time on facebook when i am not working.
+Person 1's statement: i don't believe in god.
+
+Generated response: 
+Person 1: i do not really have a favorite. i like to go fishing.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: not really, i just spend most of my time on facebook when i am not working.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: not really, i just spend most of my time on facebook when i am not working.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: not really, i just spend most of my time on facebook when i am not working.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Generated response: 
+Person 1: not really, i just spend most of my time on facebook when i am not working.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Facts:
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i am overweight and unhappy.
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i spend most of my time on facebook when i am not working.
+Person 1's statement: i don't believe in god.
+
+Generated response: 
+Person 1: not really, i just spend most of my time on facebook when i am not working.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: that's a good goal do you have a family
+Person 2: yeah i got my mother and father and a boyfriend.
+Person 1: is your boyfriend supportive of your music
+Person 2: yes he's supportive! do you have any dreams?
+
+Facts:
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i am overweight and unhappy.
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i spend most of my time on facebook when i am not working.
+Person 1's statement: i don't believe in god.
+
+Generated response: 
+Person 1: not really, i just spend most of my time on facebook when i am not working.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. very good
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: black, like my soul. i am very depressed from working at burger king.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: black, like my soul. i am very depressed from working at burger king.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: black, like my soul. i am very depressed from working at burger king.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: black, like my soul. i am very depressed from working at burger king.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Facts:
+Person 1's statement: they are constantly on my back.
+Person 1's statement: i do not drink or do drugs or anything.
+Person 1's statement: i am 19 and i cannot wait to move out 19 my parents home.
+Person 1's statement: i work took i have a part time job at burger king.
+
+Generated response: 
+Person 1: black, like my soul. i am very depressed from working at burger king.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Facts:
+Person 1's statement: they are constantly on my back.
+Person 1's statement: i do not drink or do drugs or anything.
+Person 1's statement: i am 19 and i cannot wait to move out 19 my parents home.
+Person 1's statement: i work took i have a part time job at burger king.
+
+Generated response: 
+Person 1: black, like my soul. i am very depressed from working at burger king.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. very good
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: naturally brown, i just recently tried to go blonde.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: naturally brown, i just recently tried to go blonde.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: naturally brown, i just recently tried to go blonde.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: naturally brown, i just recently tried to go blonde.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Facts:
+Person 1's statement: they are constantly on my back.
+Person 1's statement: i do not drink or do drugs or anything.
+Person 1's statement: i am 19 and i cannot wait to move out 19 my parents home.
+Person 1's statement: i work took i have a part time job at burger king.
+
+Generated response: 
+Person 1: naturally brown, i just recently tried to go blonde.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Facts:
+Person 1's statement: they are constantly on my back.
+Person 1's statement: i do not drink or do drugs or anything.
+Person 1's statement: i am 19 and i cannot wait to move out 19 my parents home.
+Person 1's statement: i work took i have a part time job at burger king.
+
+Generated response: 
+Person 1: naturally brown, i just recently tried to go blonde.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: blue. i love it. you?
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: blue. i love it. you?
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: blue. i love it. you?
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: blue. i love it. you?
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Facts:
+Person 1's statement: they are constantly on my back.
+Person 1's statement: i do not drink or do drugs or anything.
+Person 1's statement: i am 19 and i cannot wait to move out 19 my parents home.
+Person 1's statement: i work took i have a part time job at burger king.
+
+Generated response: 
+Person 1: blue. i love it. you?
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Facts:
+Person 1's statement: they are constantly on my back.
+Person 1's statement: i do not drink or do drugs or anything.
+Person 1's statement: i am 19 and i cannot wait to move out 19 my parents home.
+Person 1's statement: i work took i have a part time job at burger king.
+
+Generated response: 
+Person 1: blue. i love it. you?
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: i like red, reminds me of summer time.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: i like red, reminds me of summer time.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: i like red, reminds me of summer time.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: i like red, reminds me of summer time.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Facts:
+Person 1's statement: they are constantly on my back.
+Person 1's statement: i do not drink or do drugs or anything.
+Person 1's statement: i am 19 and i cannot wait to move out 19 my parents home.
+Person 1's statement: i work took i have a part time job at burger king.
+
+Generated response: 
+Person 1: i like red, reminds me of summer time.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Facts:
+Person 1's statement: they are constantly on my back.
+Person 1's statement: i do not drink or do drugs or anything.
+Person 1's statement: i am 19 and i cannot wait to move out 19 my parents home.
+Person 1's statement: i work took i have a part time job at burger king.
+
+Generated response: 
+Person 1: i like red, reminds me of summer time.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: you shouldn't dye it at all! my parents would blow up if i dyed my hair.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: you shouldn't dye it at all! my parents would blow up if i dyed my hair.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: you shouldn't dye it at all! my parents would blow up if i dyed my hair.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Generated response: 
+Person 1: you shouldn't dye it at all! my parents would blow up if i dyed my hair.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Facts:
+Person 1's statement: they are constantly on my back.
+Person 1's statement: i do not drink or do drugs or anything.
+Person 1's statement: i am 19 and i cannot wait to move out 19 my parents home.
+Person 1's statement: i work took i have a part time job at burger king.
+
+Generated response: 
+Person 1: you shouldn't dye it at all! my parents would blow up if i dyed my hair.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: ok good. but why dye your hair? that is, like, drugs for your hair.
+Person 2: i love to dye it blue. red reminds me of blood and i faint from that!
+Person 1: blue!? blue!? i hate blue! ree!!!
+Person 2: what color should i dye it?
+
+Facts:
+Person 1's statement: they are constantly on my back.
+Person 1's statement: i do not drink or do drugs or anything.
+Person 1's statement: i am 19 and i cannot wait to move out 19 my parents home.
+Person 1's statement: i work took i have a part time job at burger king.
+
+Generated response: 
+Person 1: you shouldn't dye it at all! my parents would blow up if i dyed my hair.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i stay home with kids now, prior was in human services.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i stay home with kids now, prior was in human services.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i stay home with kids now, prior was in human services.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i stay home with kids now, prior was in human services.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Facts:
+Person 1's statement: i'm a stay at home dad.
+Person 1's statement: i spent a decade working in the human services field.
+Person 1's statement: my father used to work for home depot.
+Person 1's statement: horror movies are my favorites.
+
+Generated response: 
+Person 1: i stay home with kids now, prior was in human services.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Facts:
+Person 1's statement: i'm a stay at home dad.
+Person 1's statement: i spent a decade working in the human services field.
+Person 1's statement: my father used to work for home depot.
+Person 1's statement: horror movies are my favorites.
+
+Generated response: 
+Person 1: i stay home with kids now, prior was in human services.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. very good
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i am into weight lifting. brings home the money.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i am into weight lifting. brings home the money.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i am into weight lifting. brings home the money.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i am into weight lifting. brings home the money.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Facts:
+Person 1's statement: i'm a stay at home dad.
+Person 1's statement: i spent a decade working in the human services field.
+Person 1's statement: my father used to work for home depot.
+Person 1's statement: horror movies are my favorites.
+
+Generated response: 
+Person 1: i am into weight lifting. brings home the money.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Facts:
+Person 1's statement: i'm a stay at home dad.
+Person 1's statement: i spent a decade working in the human services field.
+Person 1's statement: my father used to work for home depot.
+Person 1's statement: horror movies are my favorites.
+
+Generated response: 
+Person 1: i am into weight lifting. brings home the money.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i work in the tech industry.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i work in the tech industry.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i work in the tech industry.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i work in the tech industry.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Facts:
+Person 1's statement: i'm a stay at home dad.
+Person 1's statement: i spent a decade working in the human services field.
+Person 1's statement: my father used to work for home depot.
+Person 1's statement: horror movies are my favorites.
+
+Generated response: 
+Person 1: i work in the tech industry.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Facts:
+Person 1's statement: i'm a stay at home dad.
+Person 1's statement: i spent a decade working in the human services field.
+Person 1's statement: my father used to work for home depot.
+Person 1's statement: horror movies are my favorites.
+
+Generated response: 
+Person 1: i work in the tech industry.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i am a student, but i am a student.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i am a student, but i am a student.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i am a student, but i am a student.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i am a student, but i am a student.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Facts:
+Person 1's statement: i'm a stay at home dad.
+Person 1's statement: i spent a decade working in the human services field.
+Person 1's statement: my father used to work for home depot.
+Person 1's statement: horror movies are my favorites.
+
+Generated response: 
+Person 1: i am a student, but i am a student.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Facts:
+Person 1's statement: i'm a stay at home dad.
+Person 1's statement: i spent a decade working in the human services field.
+Person 1's statement: my father used to work for home depot.
+Person 1's statement: horror movies are my favorites.
+
+Generated response: 
+Person 1: i am a student, but i am a student.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i spent a decade working in human services.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i spent a decade working in human services.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i spent a decade working in human services.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Generated response: 
+Person 1: i spent a decade working in human services.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Facts:
+Person 1's statement: i'm a stay at home dad.
+Person 1's statement: i spent a decade working in the human services field.
+Person 1's statement: my father used to work for home depot.
+Person 1's statement: horror movies are my favorites.
+
+Generated response: 
+Person 1: i spent a decade working in human services.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: sounds like my kids! ha.. stay at home dad here, have to laugh somewhere.
+Person 2: we grew up christian so its out of character.
+Person 1: i bet i am sorry. it is an interesting job choice.
+Person 2: what do you do for work?
+
+Facts:
+Person 1's statement: i'm a stay at home dad.
+Person 1's statement: i spent a decade working in the human services field.
+Person 1's statement: my father used to work for home depot.
+Person 1's statement: horror movies are my favorites.
+
+Generated response: 
+Person 1: i spent a decade working in human services.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. very good
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: so, i should be able to lose weight?
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: so, i should be able to lose weight?
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: so, i should be able to lose weight?
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: so, i should be able to lose weight?
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Facts:
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i don't believe in god.
+Person 1's statement: i'm overweight and unhappy.
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i spend most of my time on facebook when i'm not working.
+
+Generated response: 
+Person 1: so, i should be able to lose weight?
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Facts:
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i don't believe in god.
+Person 1's statement: i'm overweight and unhappy.
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i spend most of my time on facebook when i'm not working.
+
+Generated response: 
+Person 1: so, i should be able to lose weight?
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. very good
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: do you do any sports? swimming helps me keep my energy up.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: do you do any sports? swimming helps me keep my energy up.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: do you do any sports? swimming helps me keep my energy up.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: do you do any sports? swimming helps me keep my energy up.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Facts:
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i don't believe in god.
+Person 1's statement: i'm overweight and unhappy.
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i spend most of my time on facebook when i'm not working.
+
+Generated response: 
+Person 1: do you do any sports? swimming helps me keep my energy up.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Facts:
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i don't believe in god.
+Person 1's statement: i'm overweight and unhappy.
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i spend most of my time on facebook when i'm not working.
+
+Generated response: 
+Person 1: do you do any sports? swimming helps me keep my energy up.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: i am not sure what that means
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: i am not sure what that means
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: i am not sure what that means
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: i am not sure what that means
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Facts:
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i don't believe in god.
+Person 1's statement: i'm overweight and unhappy.
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i spend most of my time on facebook when i'm not working.
+
+Generated response: 
+Person 1: i am not sure what that means
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Facts:
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i don't believe in god.
+Person 1's statement: i'm overweight and unhappy.
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i spend most of my time on facebook when i'm not working.
+
+Generated response: 
+Person 1: i am not sure what that means
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: i like to eat too much junk food.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: i like to eat too much junk food.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: i like to eat too much junk food.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: i like to eat too much junk food.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Facts:
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i don't believe in god.
+Person 1's statement: i'm overweight and unhappy.
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i spend most of my time on facebook when i'm not working.
+
+Generated response: 
+Person 1: i like to eat too much junk food.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Facts:
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i don't believe in god.
+Person 1's statement: i'm overweight and unhappy.
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i spend most of my time on facebook when i'm not working.
+
+Generated response: 
+Person 1: i like to eat too much junk food.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: sounds like the type of thing my wife would say. she left me and took the kids.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: sounds like the type of thing my wife would say. she left me and took the kids.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: sounds like the type of thing my wife would say. she left me and took the kids.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Generated response: 
+Person 1: sounds like the type of thing my wife would say. she left me and took the kids.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Facts:
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i don't believe in god.
+Person 1's statement: i'm overweight and unhappy.
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i spend most of my time on facebook when i'm not working.
+
+Generated response: 
+Person 1: sounds like the type of thing my wife would say. she left me and took the kids.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: i'd love to hear more i work at a retirement home
+Person 2: obesity is a state of mind, not of body
+Person 1: thank you for that, you are what you believe?
+Person 2: look energy isn't physical, only spiritual
+
+Facts:
+Person 1's statement: my wife left me and took my children.
+Person 1's statement: i don't believe in god.
+Person 1's statement: i'm overweight and unhappy.
+Person 1's statement: i work at a nursing home.
+Person 1's statement: i spend most of my time on facebook when i'm not working.
+
+Generated response: 
+Person 1: sounds like the type of thing my wife would say. she left me and took the kids.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. very good
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: we should have them meet at a cat park so they can have a rap battle.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: we should have them meet at a cat park so they can have a rap battle.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: we should have them meet at a cat park so they can have a rap battle.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: we should have them meet at a cat park so they can have a rap battle.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Facts:
+Person 1's statement: i was born in somalia.
+Person 1's statement: now i live in the united states.
+Person 1's statement: i was forced to marry when i was a.
+Person 1's statement: my aunt helped me escape when i was of.
+
+Generated response: 
+Person 1: we should have them meet at a cat park so they can have a rap battle.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Facts:
+Person 1's statement: i was born in somalia.
+Person 1's statement: now i live in the united states.
+Person 1's statement: i was forced to marry when i was a.
+Person 1's statement: my aunt helped me escape when i was of.
+
+Generated response: 
+Person 1: we should have them meet at a cat park so they can have a rap battle.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. good
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: my drummer has a cat named system. our fav band is system of a down
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: my drummer has a cat named system. our fav band is system of a down
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: my drummer has a cat named system. our fav band is system of a down
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: my drummer has a cat named system. our fav band is system of a down
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Facts:
+Person 1's statement: i was born in somalia.
+Person 1's statement: now i live in the united states.
+Person 1's statement: i was forced to marry when i was a.
+Person 1's statement: my aunt helped me escape when i was of.
+
+Generated response: 
+Person 1: my drummer has a cat named system. our fav band is system of a down
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Facts:
+Person 1's statement: i was born in somalia.
+Person 1's statement: now i live in the united states.
+Person 1's statement: i was forced to marry when i was a.
+Person 1's statement: my aunt helped me escape when i was of.
+
+Generated response: 
+Person 1: my drummer has a cat named system. our fav band is system of a down
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. neutral
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: i do not know what that means.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: i do not know what that means.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: i do not know what that means.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: i do not know what that means.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. dull
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Facts:
+Person 1's statement: i was born in somalia.
+Person 1's statement: now i live in the united states.
+Person 1's statement: i was forced to marry when i was a.
+Person 1's statement: my aunt helped me escape when i was of.
+
+Generated response: 
+Person 1: i do not know what that means.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Facts:
+Person 1's statement: i was born in somalia.
+Person 1's statement: now i live in the united states.
+Person 1's statement: i was forced to marry when i was a.
+Person 1's statement: my aunt helped me escape when i was of.
+
+Generated response: 
+Person 1: i do not know what that means.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. bad
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: i do not know how to play the guitar.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: i do not know how to play the guitar.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. somewhat
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: i do not know how to play the guitar.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: i do not know how to play the guitar.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. somewhat interesting
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Facts:
+Person 1's statement: i was born in somalia.
+Person 1's statement: now i live in the united states.
+Person 1's statement: i was forced to marry when i was a.
+Person 1's statement: my aunt helped me escape when i was of.
+
+Generated response: 
+Person 1: i do not know how to play the guitar.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. no
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Facts:
+Person 1's statement: i was born in somalia.
+Person 1's statement: now i live in the united states.
+Person 1's statement: i was forced to marry when i was a.
+Person 1's statement: my aunt helped me escape when i was of.
+
+Generated response: 
+Person 1: i do not know how to play the guitar.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. bad
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: good idea! i've only recently moved to the united states, so i don't know many people. neither does my cat.
+
+Questions about the generated response:
+1. Understandable (no/yes): Is the response understandable given the previous context?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: good idea! i've only recently moved to the united states, so i don't know many people. neither does my cat.
+
+Questions about the generated response:
+1. Natural (no/somewhat/yes): Does the response seem like something that a person would naturally say?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: good idea! i've only recently moved to the united states, so i don't know many people. neither does my cat.
+
+Questions about the generated response:
+1. Maintains Context (no/somewhat/yes): Does the response serve as a valid continuation of the preceding conversation?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Generated response: 
+Person 1: good idea! i've only recently moved to the united states, so i don't know many people. neither does my cat.
+
+Questions about the generated response:
+1. Interesting (dull/somewhat interesting/interesting): Is the response dull or interesting?
+
+Answers: 
+1. interesting
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Facts:
+Person 1's statement: i was born in somalia.
+Person 1's statement: now i live in the united states.
+Person 1's statement: i was forced to marry when i was a.
+Person 1's statement: my aunt helped me escape when i was of.
+
+Generated response: 
+Person 1: good idea! i've only recently moved to the united states, so i don't know many people. neither does my cat.
+
+Questions about the generated response:
+1. Uses Knowledge (no/yes): Given the facts that the response is conditioned on, does the response use the facts?
+
+Answers: 
+1. yes
+
+
+Context:
+Person 1: hi, i also like rap music. mostly somalian rap.
+Person 2: yeah, my cat likes rap music too, his name is charlie
+Person 1: i got a cat named ziggy when i moved to the united states. he likes reggae music.
+Person 2: looks like my cat and your cat should introduce themselves
+
+Facts:
+Person 1's statement: i was born in somalia.
+Person 1's statement: now i live in the united states.
+Person 1's statement: i was forced to marry when i was a.
+Person 1's statement: my aunt helped me escape when i was of.
+
+Generated response: 
+Person 1: good idea! i've only recently moved to the united states, so i don't know many people. neither does my cat.
+
+Questions about the generated response:
+1. Overall Quality (very bad/bad/neutral/good/very good): What is your overall impression of the quality of the generated response?
+
+Answers: 
+1. very good
+
+
