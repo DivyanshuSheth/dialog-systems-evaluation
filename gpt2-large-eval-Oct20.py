@@ -31,8 +31,9 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 
 
-for each in [693, 1386, 2079, 2772, 3465, 4158, 4851, 5544, 6237, 6930]:
-    model_checkpoint = f'gpt2-large-finetuned-10-epochs-2e-05-lr/checkpoint-{str(each)}/'
+# for each in [693, 1386, 2079, 2772, 3465, 4158, 4851, 5544, 6237, 6930]:
+for each in [8316, 9702, 11088, 12474, 13860]: ## change based on checkpoints
+    model_checkpoint = f'gpt2-xl-finetuned-10-epochs-2e-05-lr-no-weight-decay-scheduler/checkpoint-{str(each)}/'
     output_dir = model_checkpoint
     print(f"Model Checkpoint = {model_checkpoint}\n")
 
@@ -96,40 +97,46 @@ for each in [693, 1386, 2079, 2772, 3465, 4158, 4851, 5544, 6237, 6930]:
     for i, each in enumerate(tc_test_dataset):
         datapoint = tokenizer.decode(tc_test_dataset[i][0], skip_special_tokens=True)
         unlabelled_here = ".".join(datapoint.split(".")[:-1]) + ". "
-        tc_test_lines.append(unlabelled_here)
-        if "Is the response dull or interesting" in unlabelled_here:
-            label_int = label2int["interesting"][datapoint.replace(unlabelled_here, "")]
-        elif "overall impression of the quality" in unlabelled_here:
-            label_int = label2int["overall"][datapoint.replace(unlabelled_here, "")]
-        elif "facts that the response is conditioned" in unlabelled_here:
-            label_int = label2int["facts"][datapoint.replace(unlabelled_here, "")]
-        elif "understandable given the previous context" in unlabelled_here:
-            label_int = label2int["understandable"][datapoint.replace(unlabelled_here, "")]
-        elif "valid continuation of the preceding conversation" in unlabelled_here:
-            label_int = label2int["context"][datapoint.replace(unlabelled_here, "")]
-        elif "something that a person would naturally say" in unlabelled_here:
-            label_int = label2int["natural"][datapoint.replace(unlabelled_here, "")]
-        tc_labels.append(label_int)
+        try:
+            if "Is the response dull or interesting" in unlabelled_here:
+                label_int = label2int["interesting"][datapoint.replace(unlabelled_here, "")]
+            elif "overall impression of the quality" in unlabelled_here:
+                label_int = label2int["overall"][datapoint.replace(unlabelled_here, "")]
+            elif "facts that the response is conditioned" in unlabelled_here:
+                label_int = label2int["facts"][datapoint.replace(unlabelled_here, "")]
+            elif "understandable given the previous context" in unlabelled_here:
+                label_int = label2int["understandable"][datapoint.replace(unlabelled_here, "")]
+            elif "valid continuation of the preceding conversation" in unlabelled_here:
+                label_int = label2int["context"][datapoint.replace(unlabelled_here, "")]
+            elif "something that a person would naturally say" in unlabelled_here:
+                label_int = label2int["natural"][datapoint.replace(unlabelled_here, "")]
+            tc_test_lines.append(unlabelled_here)
+            tc_labels.append(label_int)
+        except:
+            print("error")
 
     pc_test_lines = []
     pc_labels = []
     for i, each in enumerate(pc_test_dataset):
         datapoint = tokenizer.decode(pc_test_dataset[i][0], skip_special_tokens=True)
         unlabelled_here = ".".join(datapoint.split(".")[:-1]) + ". "
-        pc_test_lines.append(unlabelled_here)
-        if "Is the response dull or interesting" in unlabelled_here:
-            label_int = label2int["interesting"][datapoint.replace(unlabelled_here, "")]
-        elif "overall impression of the quality" in unlabelled_here:
-            label_int = label2int["overall"][datapoint.replace(unlabelled_here, "")]
-        elif "facts that the response is conditioned" in unlabelled_here:
-            label_int = label2int["facts"][datapoint.replace(unlabelled_here, "")]
-        elif "understandable given the previous context" in unlabelled_here:
-            label_int = label2int["understandable"][datapoint.replace(unlabelled_here, "")]
-        elif "valid continuation of the preceding conversation" in unlabelled_here:
-            label_int = label2int["context"][datapoint.replace(unlabelled_here, "")]
-        elif "something that a person would naturally say" in unlabelled_here:
-            label_int = label2int["natural"][datapoint.replace(unlabelled_here, "")]
-        pc_labels.append(label_int)
+        try:
+            if "Is the response dull or interesting" in unlabelled_here:
+                label_int = label2int["interesting"][datapoint.replace(unlabelled_here, "")]
+            elif "overall impression of the quality" in unlabelled_here:
+                label_int = label2int["overall"][datapoint.replace(unlabelled_here, "")]
+            elif "facts that the response is conditioned" in unlabelled_here:
+                label_int = label2int["facts"][datapoint.replace(unlabelled_here, "")]
+            elif "understandable given the previous context" in unlabelled_here:
+                label_int = label2int["understandable"][datapoint.replace(unlabelled_here, "")]
+            elif "valid continuation of the preceding conversation" in unlabelled_here:
+                label_int = label2int["context"][datapoint.replace(unlabelled_here, "")]
+            elif "something that a person would naturally say" in unlabelled_here:
+                label_int = label2int["natural"][datapoint.replace(unlabelled_here, "")]
+            pc_labels.append(label_int)
+            pc_test_lines.append(unlabelled_here)
+        except:
+            print("error")
 
 
     tc_test_on_train_lines = []
@@ -137,40 +144,46 @@ for each in [693, 1386, 2079, 2772, 3465, 4158, 4851, 5544, 6237, 6930]:
     for i, each in enumerate(tc_train_dataset):
         datapoint = tokenizer.decode(tc_train_dataset[i][0], skip_special_tokens=True)
         unlabelled_here = ".".join(datapoint.split(".")[:-1]) + ". "
-        tc_test_on_train_lines.append(unlabelled_here)
-        if "Is the response dull or interesting" in unlabelled_here:
-            label_int = label2int["interesting"][datapoint.replace(unlabelled_here, "")]
-        elif "overall impression of the quality" in unlabelled_here:
-            label_int = label2int["overall"][datapoint.replace(unlabelled_here, "")]
-        elif "facts that the response is conditioned" in unlabelled_here:
-            label_int = label2int["facts"][datapoint.replace(unlabelled_here, "")]
-        elif "understandable given the previous context" in unlabelled_here:
-            label_int = label2int["understandable"][datapoint.replace(unlabelled_here, "")]
-        elif "valid continuation of the preceding conversation" in unlabelled_here:
-            label_int = label2int["context"][datapoint.replace(unlabelled_here, "")]
-        elif "something that a person would naturally say" in unlabelled_here:
-            label_int = label2int["natural"][datapoint.replace(unlabelled_here, "")]
-        tc_test_on_train_labels.append(label_int)
+        try:
+            if "Is the response dull or interesting" in unlabelled_here:
+                label_int = label2int["interesting"][datapoint.replace(unlabelled_here, "")]
+            elif "overall impression of the quality" in unlabelled_here:
+                label_int = label2int["overall"][datapoint.replace(unlabelled_here, "")]
+            elif "facts that the response is conditioned" in unlabelled_here:
+                label_int = label2int["facts"][datapoint.replace(unlabelled_here, "")]
+            elif "understandable given the previous context" in unlabelled_here:
+                label_int = label2int["understandable"][datapoint.replace(unlabelled_here, "")]
+            elif "valid continuation of the preceding conversation" in unlabelled_here:
+                label_int = label2int["context"][datapoint.replace(unlabelled_here, "")]
+            elif "something that a person would naturally say" in unlabelled_here:
+                label_int = label2int["natural"][datapoint.replace(unlabelled_here, "")]
+            tc_test_on_train_labels.append(label_int)
+            tc_test_on_train_lines.append(unlabelled_here)
+        except:
+            print("error")
 
     pc_test_on_train_lines = []
     pc_test_on_train_labels = []
     for i, each in enumerate(pc_train_dataset):
         datapoint = tokenizer.decode(pc_train_dataset[i][0], skip_special_tokens=True)
         unlabelled_here = ".".join(datapoint.split(".")[:-1]) + ". "
-        pc_test_on_train_lines.append(unlabelled_here)
-        if "Is the response dull or interesting" in unlabelled_here:
-            label_int = label2int["interesting"][datapoint.replace(unlabelled_here, "")]
-        elif "overall impression of the quality" in unlabelled_here:
-            label_int = label2int["overall"][datapoint.replace(unlabelled_here, "")]
-        elif "facts that the response is conditioned" in unlabelled_here:
-            label_int = label2int["facts"][datapoint.replace(unlabelled_here, "")]
-        elif "understandable given the previous context" in unlabelled_here:
-            label_int = label2int["understandable"][datapoint.replace(unlabelled_here, "")]
-        elif "valid continuation of the preceding conversation" in unlabelled_here:
-            label_int = label2int["context"][datapoint.replace(unlabelled_here, "")]
-        elif "something that a person would naturally say" in unlabelled_here:
-            label_int = label2int["natural"][datapoint.replace(unlabelled_here, "")]
-        pc_test_on_train_labels.append(label_int) 
+        try:
+            if "Is the response dull or interesting" in unlabelled_here:
+                label_int = label2int["interesting"][datapoint.replace(unlabelled_here, "")]
+            elif "overall impression of the quality" in unlabelled_here:
+                label_int = label2int["overall"][datapoint.replace(unlabelled_here, "")]
+            elif "facts that the response is conditioned" in unlabelled_here:
+                label_int = label2int["facts"][datapoint.replace(unlabelled_here, "")]
+            elif "understandable given the previous context" in unlabelled_here:
+                label_int = label2int["understandable"][datapoint.replace(unlabelled_here, "")]
+            elif "valid continuation of the preceding conversation" in unlabelled_here:
+                label_int = label2int["context"][datapoint.replace(unlabelled_here, "")]
+            elif "something that a person would naturally say" in unlabelled_here:
+                label_int = label2int["natural"][datapoint.replace(unlabelled_here, "")]
+            pc_test_on_train_labels.append(label_int) 
+            pc_test_on_train_lines.append(unlabelled_here)
+        except:
+            print("error")
 
 
     def get_results(test_lines, test_labels, dataset_and_split):
@@ -198,30 +211,33 @@ for each in [693, 1386, 2079, 2772, 3465, 4158, 4851, 5544, 6237, 6930]:
                 generation = model.generate(input_ids, do_sample=False, max_new_tokens=100, num_beams=5)
                 ## do_sample=False enables greedy decoding
                 predicted_label = tokenizer.batch_decode(generation, skip_special_tokens=True)[0].replace(each, "").lstrip().rstrip()
-                if "understandable given the previous context" in unlabelled_here:
-                    label_int = label2int["understandable"][predicted_label]
-                    predicted_q1.append(label_int)
-                    labels_q1.append(test_labels[i])
-                elif "something that a person would naturally say" in unlabelled_here:
-                    label_int = label2int["natural"][predicted_label]
-                    predicted_q2.append(label_int)
-                    labels_q2.append(test_labels[i])
-                elif "valid continuation of the preceding conversation" in unlabelled_here:
-                    label_int = label2int["context"][predicted_label]
-                    predicted_q3.append(label_int)
-                    labels_q3.append(test_labels[i])
-                elif "Is the response dull or interesting" in unlabelled_here:
-                    label_int = label2int["interesting"][predicted_label]
-                    predicted_q4.append(label_int)
-                    labels_q4.append(test_labels[i])
-                elif "facts that the response is conditioned" in unlabelled_here:
-                    label_int = label2int["facts"][predicted_label]
-                    predicted_q5.append(label_int)
-                    labels_q5.append(test_labels[i])
-                elif "overall impression of the quality" in unlabelled_here:
-                    label_int = label2int["overall"][predicted_label]
-                    predicted_q6.append(label_int)
-                    labels_q6.append(test_labels[i])
+                try:
+                    if "understandable given the previous context" in unlabelled_here:
+                        label_int = label2int["understandable"][predicted_label]
+                        predicted_q1.append(label_int)
+                        labels_q1.append(test_labels[i])
+                    elif "something that a person would naturally say" in unlabelled_here:
+                        label_int = label2int["natural"][predicted_label]
+                        predicted_q2.append(label_int)
+                        labels_q2.append(test_labels[i])
+                    elif "valid continuation of the preceding conversation" in unlabelled_here:
+                        label_int = label2int["context"][predicted_label]
+                        predicted_q3.append(label_int)
+                        labels_q3.append(test_labels[i])
+                    elif "Is the response dull or interesting" in unlabelled_here:
+                        label_int = label2int["interesting"][predicted_label]
+                        predicted_q4.append(label_int)
+                        labels_q4.append(test_labels[i])
+                    elif "facts that the response is conditioned" in unlabelled_here:
+                        label_int = label2int["facts"][predicted_label]
+                        predicted_q5.append(label_int)
+                        labels_q5.append(test_labels[i])
+                    elif "overall impression of the quality" in unlabelled_here:
+                        label_int = label2int["overall"][predicted_label]
+                        predicted_q6.append(label_int)
+                        labels_q6.append(test_labels[i])
+                except:
+                    continue
 
         print("LENGTHS:\n")
         print(len(predicted_q1))
@@ -265,11 +281,11 @@ for each in [693, 1386, 2079, 2772, 3465, 4158, 4851, 5544, 6237, 6930]:
             f1.write(f"Model Checkpoint = {model_checkpoint}\n\n")
             f1.write(f"Spearmann Correlation = \n")
             f1.write(f"Q1: Rho = {srho1}, p = {sp1}\n")
-            f1.write(f"Q2: Rho = {srho1}, p = {sp1}\n")
-            f1.write(f"Q3: Rho = {srho1}, p = {sp1}\n")
-            f1.write(f"Q4: Rho = {srho1}, p = {sp1}\n")
-            f1.write(f"Q5: Rho = {srho1}, p = {sp1}\n")
-            f1.write(f"Q6: Rho = {srho1}, p = {sp1}\n")
+            f1.write(f"Q2: Rho = {srho2}, p = {sp2}\n")
+            f1.write(f"Q3: Rho = {srho3}, p = {sp3}\n")
+            f1.write(f"Q4: Rho = {srho4}, p = {sp4}\n")
+            f1.write(f"Q5: Rho = {srho5}, p = {sp5}\n")
+            f1.write(f"Q6: Rho = {srho6}, p = {sp6}\n")
             f1.write(f"\n\nPearson Correlation = \n")
             f1.write(f"Q1: Rho = {prho1}, p = {pp1}\n")
             f1.write(f"Q2: Rho = {prho2}, p = {pp2}\n")
