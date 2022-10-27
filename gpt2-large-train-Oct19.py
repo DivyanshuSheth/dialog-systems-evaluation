@@ -1,17 +1,24 @@
 #!/usr/bin/python
 
 PARAMS = {
-    "model_checkpoint": "gpt2-large",
-    "learning_rate": 0.25e-5,
-    "num_epochs": 5,
-    "overwrite_output_dir": True,
+    "model_checkpoint": "gpt2-xl",
+    "learning_rate": 2e-5,
+    "num_epochs": 10,
+    "overwrite_output_dir": False,
 }
-PARAMS["output_dir"] = f"{PARAMS['model_checkpoint']}-finetuned-{PARAMS['num_epochs']}-epochs-{PARAMS['learning_rate']}-lr"
+PARAMS["output_dir"] = f"{PARAMS['model_checkpoint']}-finetuned-{PARAMS['num_epochs']}-epochs-{PARAMS['learning_rate']}-lr-no-weight-decay-scheduler"
 
 print(f"Output Directory = {PARAMS['output_dir']}")
 
 import neptune.new as neptune
+
+# neptune.init(project='divyanshusheth/dialog-systems-evaluation', api_token='eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiI1N2U3ZjlmNi1iYTFiLTQxZTctYWQ4ZC1iYzFhZDE5M2NmN2MifQ==')
+neptune.init()
+
+
 from transformers.integrations import NeptuneCallback
+from transformers import AdamW
+from transformers import get_scheduler
 import os
 import math
 import pandas as pd
@@ -321,23 +328,37 @@ training_args = TrainingArguments(output_dir=PARAMS["output_dir"],
                                   evaluation_strategy='epoch',
                                   logging_strategy="epoch",
                                   logging_first_step=True,
+                                  logging_dir=f"""{PARAMS['output_dir']}/LOGS/""",
                                 #   logging_steps=200,
                                 #   save_steps =1000,
 #                                   per_device_train_batch_size=1,
                                   auto_find_batch_size=True,
 #                                   gradient_accumulation_steps=bs,
                                 #   warmup_steps=500,
-                                  weight_decay=0.01,  
+#                                   weight_decay=0.01,  
                                   load_best_model_at_end=True,
                                   fp16=False,
-                                  report_to="none",
+                                  report_to="neptune",
                                   )
                                 #   logging_dir='./logs')
 
+    
+
+optimizer = AdamW(model.parameters(), lr=PARAMS['learning_rate'])
+num_training_steps = PARAMS['num_epochs'] * 6930
+lr_scheduler = get_scheduler(
+    "linear",
+    optimizer=optimizer,
+    num_warmup_steps=0,
+    num_training_steps=num_training_steps,
+)
 
 trainer = Trainer(model=model, args=training_args,  
                   train_dataset=tc_pc_concat_traindataset,
                   eval_dataset=tc_pc_concat_valdataset, 
+                  
+                  optimizers=(optimizer, lr_scheduler),
+                  
                   # This custom collate function is necessary 
                   # to built batches of data
                   data_collator=lambda data: 
@@ -346,7 +367,8 @@ trainer = Trainer(model=model, args=training_args,
                'labels': torch.stack([f[0] for f in data])},
                  )
 
-
+# print("train dataloader len = ")
+# print(len(trainer.get_train_dataloader()))
 
 # Start training process!
 trainer.train()
