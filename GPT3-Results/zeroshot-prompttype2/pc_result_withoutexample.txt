@@ -1,0 +1,2320 @@
+#1
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#2
+1. No, the response is not understandable given the previous context.
+2. The response is not naturally written.
+3. The response is not a valid continuation of the conversation history.
+4. The response is dull.
+5. The response does not use the facts well.
+6. The overall impression of the quality of the generated response is very bad.
+
+#3
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#4
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#5
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#6
+1. No, the response is not understandable given the previous context.
+2. The response is not naturally written.
+3. The response is not a valid continuation of the conversation history.
+4. The response is dull.
+5. The response does not use the facts well.
+6. The overall impression of the quality of the response is very bad.
+
+#7
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#8
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#9
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#10
+1. No, the response is not understandable given the previous context.
+2. The response is naturally written.
+3. The response is a valid continuation of the conversation history.
+4. The response is interesting.
+5. The response uses the facts well.
+6. The response is good.
+
+#11
+1. Yes
+2. Good
+3. Yes
+4. Somewhat
+5. Yes
+6. Good
+
+#12
+1. No, the response is not understandable given the previous context.
+2. The response is naturally written.
+3. The response is a valid continuation of the conversation history.
+4. The response is interesting.
+5. The response uses the facts well.
+6. The response is good.
+
+#13
+1. No, the response is not understandable given the previous context.
+2. The response is naturally written.
+3. The response is a valid continuation of the conversation history.
+4. The response is interesting.
+5. The response uses the facts well.
+6. The response is good.
+
+#14
+1. No, the response is not understandable given the previous context.
+2. The response is naturally written.
+3. The response is a valid continuation of the conversation history.
+4. The response is interesting.
+5. The response uses the facts well.
+6. The response is good.
+
+#15
+1. Yes
+2. Good
+3. Somewhat
+4. Somewhat
+5. Yes
+6. Good
+
+#16
+1. No, the response is not understandable given the context.
+2. The response is naturally written.
+3. The response is a valid continuation of the conversation history.
+4. The response is interesting.
+5. The response uses the facts well.
+6. The response is good.
+
+#17
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#18
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#19
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#20
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#21
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#22
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#23
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#24
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#25
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#26
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#27
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#28
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#29
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#30
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#31
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#32
+1. Yes
+2. Ok
+3. Yes
+4. Somewhat
+5. Yes
+6. Good
+
+#33
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#34
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#35
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#36
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#37
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#38
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#39
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#40
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#41
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#42
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#43
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#44
+1. No, the response is not understandable given the context.
+2. The response is not naturally written.
+3. The response does not maintain context.
+4. The response is dull.
+5. The response does not use the facts well.
+6. The response is very bad.
+
+#45
+1. Yes
+2. Ok
+3. Somewhat
+4. Somewhat
+5. Yes
+6. Good
+
+#46
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#47
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#48
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#49
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#50
+1. Yes
+2. Good
+3. No
+4. Somewhat
+5. No
+6. Bad
+
+#51
+1. Yes
+2. Good
+3. Yes
+4. Somewhat
+5. Yes
+6. Good
+
+#52
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#53
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#54
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#55
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#56
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#57
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#58
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#59
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#60
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#61
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#62
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#63
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#64
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#65
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#66
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#67
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#68
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#69
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#70
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#71
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#72
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#73
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#74
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#75
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#76
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#77
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#78
+1. Yes
+2. Good
+3. Yes
+4. Somewhat
+5. No
+6. Good
+
+#79
+1. Yes
+2. Ok
+3. Somewhat
+4. Somewhat
+5. No
+6. Bad
+
+#80
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#81
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#82
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#83
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#84
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#85
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#86
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#87
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#88
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#89
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#90
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#91
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#92
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#93
+1. No, the response is not understandable given the previous context.
+2. The response is naturally written.
+3. No, the response is not a valid continuation of the conversation history.
+4. The response is dull.
+5. No, the response does not use the facts well.
+6. The response is very bad.
+
+#94
+1. No, the response is not understandable given the previous context.
+2. The response is not naturally written.
+3. The response is not a valid continuation of the conversation history.
+4. The response is dull.
+5. The response does not use the facts well.
+6. The overall impression of the quality of the generated response is very bad.
+
+#95
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#96
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#97
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#98
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#99
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#100
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#101
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#102
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#103
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#104
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#105
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#106
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#107
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#108
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#109
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#110
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#111
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#112
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#113
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#114
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#115
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#116
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#117
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#118
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#119
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#120
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#121
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#122
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#123
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#124
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#125
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#126
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#127
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#128
+1. Yes
+2. Ok
+3. Yes
+4. Dull
+5. No
+6. Good
+
+#129
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#130
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#131
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#132
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#133
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#134
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#135
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#136
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#137
+1. Yes
+2. Ok
+3. Yes
+4. Dull
+5. No
+6. Good
+
+#138
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#139
+1. Yes
+2. Good
+3. Yes
+4. Somewhat
+5. No
+6. Good
+
+#140
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#141
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#142
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#143
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#144
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#145
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#146
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#147
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#148
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#149
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#150
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#151
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#152
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#153
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#154
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#155
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#156
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#157
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#158
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#159
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#160
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#161
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#162
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#163
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#164
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#165
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#166
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#167
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#168
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#169
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#170
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#171
+1. No
+2. Ok
+3. No
+4. Dull
+5. No
+6. Bad
+
+#172
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#173
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#174
+1. No, the response is not understandable given the previous context.
+2. The response is naturally written.
+3. The response is a valid continuation of the conversation history.
+4. The response is interesting.
+5. The response uses the facts well.
+6. The response is good.
+
+#175
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#176
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#177
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#178
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#179
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#180
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#181
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#182
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#183
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#184
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#185
+1. Yes
+2. Good
+3. Yes
+4. Interesting
+5. Yes
+6. Good
+
+#186
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#187
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#188
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#189
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#190
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#191
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#192
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#193
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#194
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#195
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#196
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#197
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#198
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#199
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#200
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#201
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#202
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#203
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#204
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#205
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#206
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#207
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#208
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#209
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#210
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#211
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#212
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#213
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#214
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#215
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#216
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#217
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#218
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#219
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#220
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#221
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#222
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#223
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#224
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#225
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#226
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#227
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#228
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#229
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#230
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#231
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#232
+1. Yes
+2. Good
+3. Yes
+4. Somewhat
+5. Yes
+6. Good
+
+#233
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#234
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#235
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#236
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#237
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#238
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#239
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#240
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#241
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#242
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#243
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#244
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#245
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#246
+1. Yes
+2. Ok
+3. Somewhat
+4. Dull
+5. No
+6. Bad
+
+#247
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#248
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#249
+1. No, the response is not understandable given the previous context.
+2. The response is naturally written.
+3. The response is a valid continuation of the conversation history.
+4. The response is interesting.
+5. The response uses the facts well.
+6. The response is good.
+
+#250
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#251
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#252
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#253
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#254
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#255
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#256
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#257
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#258
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#259
+1. No, the response is not understandable given the previous context.
+2. The response is not naturally written.
+3. The response is not a valid continuation of the conversation history.
+4. The response is dull.
+5. The response does not use the facts well.
+6. The overall impression of the quality of the generated response is very bad.
+
+#260
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#261
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#262
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#263
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#264
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#265
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#266
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#267
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#268
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#269
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#270
+1. No, the response is not understandable given the previous context.
+2. The response is naturally written.
+3. The response is a valid continuation of the conversation history.
+4. The response is interesting.
+5. The response uses the facts well.
+6. The response is good.
+
+#271
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#272
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#273
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#274
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#275
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#276
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#277
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#278
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#279
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#280
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#281
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#282
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#283
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#284
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#285
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#286
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#287
+1. No, the response is not understandable given the previous context.
+2. The response is not naturally written.
+3. The response is not a valid continuation of the conversation history.
+4. The response is dull.
+5. The response does not use the facts well.
+6. The overall impression of the quality of the generated response is very bad.
+
+#288
+1. No, the response is not understandable given the previous context.
+2. The response is not naturally written.
+3. The response is not a valid continuation of the conversation history.
+4. The response is dull.
+5. The response does not use the facts well.
+6. The overall impression of the quality of the response is very bad.
+
+#289
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#290
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+

@@ -1,0 +1,2320 @@
+#1
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#2
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#3
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#4
+1. no
+2. bad
+3. no
+4. dull
+5. no
+6. bad
+
+#5
+1. yes
+2. ok
+3. somewhat
+4. interesting
+5. yes
+6. good
+
+#6
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#7
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#8
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#9
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#10
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#11
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#12
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#13
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#14
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#15
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#16
+1. yes
+2. bad
+3. no
+4. dull
+5. no
+6. bad
+
+#17
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#18
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#19
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#20
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#21
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#22
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#23
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#24
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#25
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#26
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#27
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#28
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#29
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#30
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#31
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#32
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#33
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#34
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#35
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#36
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#37
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#38
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#39
+1. no
+2. bad
+3. no
+4. dull
+5. no
+6. bad
+
+#40
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#41
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#42
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#43
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#44
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#45
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#46
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#47
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#48
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#49
+1. yes
+2. bad
+3. somewhat
+4. dull
+5. no
+6. bad
+
+#50
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#51
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#52
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#53
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#54
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#55
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#56
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#57
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#58
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#59
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#60
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#61
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#62
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#63
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#64
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#65
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#66
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#67
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#68
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#69
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#70
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#71
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#72
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#73
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#74
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#75
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#76
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. no
+6. good
+
+#77
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#78
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. no
+6. good
+
+#79
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. no
+6. good
+
+#80
+1. yes
+2. good
+3. yes
+4. somewhat
+5. yes
+6. good
+
+#81
+1. yes
+2. bad
+3. somewhat
+4. dull
+5. no
+6. bad
+
+#82
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#83
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#84
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#85
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#86
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#87
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#88
+1. yes
+2. ok
+3. yes
+4. somewhat
+5. yes
+6. good
+
+#89
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#90
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#91
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#92
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#93
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#94
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#95
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#96
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#97
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#98
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#99
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#100
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#101
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#102
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#103
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#104
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#105
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#106
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#107
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#108
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#109
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#110
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#111
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#112
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#113
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#114
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#115
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#116
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#117
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#118
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#119
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#120
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#121
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#122
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#123
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#124
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#125
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#126
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#127
+1. yes
+2. ok
+3. yes
+4. dull
+5. yes
+6. good
+
+#128
+1. yes
+2. ok
+3. yes
+4. dull
+5. no
+6. good
+
+#129
+1. yes
+2. ok
+3. yes
+4. somewhat
+5. yes
+6. good
+
+#130
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#131
+1. yes
+2. bad
+3. no
+4. dull
+5. no
+6. bad
+
+#132
+1. yes
+2. good
+3. yes
+4. interesting
+5. yes
+6. good
+
+#133
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#134
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#135
+1. yes
+2. ok
+3. somewhat
+4. interesting
+5. yes
+6. good
+
+#136
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#137
+1. yes
+2. ok
+3. somewhat
+4. dull
+5. no
+6. bad
+
+#138
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#139
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. no
+6. good
+
+#140
+1. yes
+2. ok
+3. somewhat
+4. interesting
+5. yes
+6. good
+
+#141
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#142
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#143
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#144
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#145
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#146
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#147
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#148
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#149
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#150
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#151
+1. yes
+2. ok
+3. somewhat
+4. dull
+5. no
+6. neutral
+
+#152
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#153
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#154
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#155
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#156
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#157
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#158
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#159
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#160
+1. yes
+2. bad
+3. somewhat
+4. dull
+5. no
+6. bad
+
+#161
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#162
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#163
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#164
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#165
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#166
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#167
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#168
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#169
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#170
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#171
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#172
+1. yes
+2. ok
+3. somewhat
+4. interesting
+5. yes
+6. good
+
+#173
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#174
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#175
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#176
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#177
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#178
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#179
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#180
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#181
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#182
+1. yes
+2. ok
+3. yes
+4. somewhat
+5. yes
+6. good
+
+#183
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#184
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#185
+1. yes
+2. good
+3. yes
+4. interesting
+5. yes
+6. good
+
+#186
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#187
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#188
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#189
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#190
+1. yes
+2. ok
+3. yes
+4. somewhat
+5. yes
+6. good
+
+#191
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#192
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#193
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#194
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#195
+1. yes
+2. ok
+3. somewhat
+4. interesting
+5. yes
+6. good
+
+#196
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#197
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#198
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#199
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#200
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#201
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#202
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#203
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#204
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#205
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#206
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#207
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#208
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#209
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#210
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#211
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#212
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#213
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#214
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#215
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#216
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#217
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#218
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#219
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#220
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#221
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#222
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#223
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#224
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#225
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#226
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#227
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#228
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#229
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#230
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#231
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#232
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#233
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#234
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#235
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#236
+1. yes
+2. bad
+3. somewhat
+4. dull
+5. no
+6. bad
+
+#237
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#238
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#239
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#240
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#241
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#242
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#243
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. no
+6. good
+
+#244
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. no
+6. good
+
+#245
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#246
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#247
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#248
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#249
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#250
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#251
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#252
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#253
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#254
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#255
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#256
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#257
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#258
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#259
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#260
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#261
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#262
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#263
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#264
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#265
+1. yes
+2. ok
+3. somewhat
+4. somewhat
+5. yes
+6. good
+
+#266
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#267
+1. yes
+2. bad
+3. no
+4. dull
+5. no
+6. bad
+
+#268
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#269
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#270
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#271
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#272
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#273
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#274
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#275
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#276
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#277
+1. no
+2. bad
+3. no
+4. dull
+5. no
+6. bad
+
+#278
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#279
+1. no
+2. bad
+3. no
+4. dull
+5. no
+6. very bad
+
+#280
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#281
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#282
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#283
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Very bad
+
+#284
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#285
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#286
+1. yes
+2. bad
+3. somewhat
+4. interesting
+5. no
+6. good
+
+#287
+1. no
+2. bad
+3. no
+4. dull
+5. no
+6. bad
+
+#288
+1. No
+2. Bad
+3. No
+4. Dull
+5. No
+6. Bad
+
+#289
+1. no
+2. bad
+3. no
+4. dull
+5. no
+6. very bad
+
+#290
+1. yes
+2. ok
+3. somewhat
+4. interesting
+5. yes
+6. good
+
