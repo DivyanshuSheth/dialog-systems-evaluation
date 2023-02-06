@@ -1,0 +1,7002 @@
+[
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 110,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Sure , what's the matter ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 123,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Impossible ! I surely have a lot to learn , but I think I'll learn it and I'll get a new smile for a bit of it .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    2,
+                    4,
+                    3,
+                    2,
+                    4,
+                    3,
+                    4,
+                    3,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 134,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I also think that we have hurdle .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    4,
+                    2,
+                    5,
+                    3,
+                    3,
+                    5,
+                    2,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 145,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Whoa ! That a joke ? Uh ... you know why ? If you don't know that , you're a politician . Or you have a crush on that .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    2,
+                    3,
+                    3,
+                    2,
+                    3,
+                    2,
+                    2,
+                    2,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 156,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Well , if you'd like to , I'll cut the line to you . It's conducted between five dollars and one dime .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    2,
+                    3,
+                    2,
+                    2,
+                    3,
+                    2,
+                    1,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 167,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes , that does cause the expired motor .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    2,
+                    4,
+                    2,
+                    3,
+                    4,
+                    4,
+                    4,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 178,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "You can't lend the money if you want to .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    3,
+                    4,
+                    2,
+                    4,
+                    2,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 189,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I know . That's why Christopher and I prefer to pay the Tv amount , which is more superior than I can find work .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    3,
+                    2,
+                    4,
+                    3,
+                    1
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 0,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "But they don't actually . But it's too hot .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    2,
+                    3,
+                    5,
+                    4,
+                    2,
+                    3,
+                    4,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 11,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "How about the price and the necessary load of the coin ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    4,
+                    3,
+                    3,
+                    3,
+                    3,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 22,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "No , you can stay at home to eat a local house and tea for your party . Besides , it's the most important thing to me .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    3,
+                    2,
+                    2,
+                    3,
+                    4,
+                    2,
+                    4,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 33,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "But they don't see any things.But here . But I think they are just tougher .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    4,
+                    2,
+                    1,
+                    3,
+                    4,
+                    2,
+                    2,
+                    4,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 44,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Sure . In that case , I'm afraid I'm in a hurry !",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    2,
+                    4,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 55,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "All right . But we don't have such a nice gift .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    5,
+                    5,
+                    3,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 66,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I watched the green tea and it works in cool .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    2,
+                    2,
+                    3,
+                    4,
+                    3,
+                    2,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 77,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Sounds good . I will measure you as soon as possible .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    4,
+                    5,
+                    3,
+                    5,
+                    3,
+                    4,
+                    3,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 88,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I have no idea . I can do it well . They were so easy to be done .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    3,
+                    4,
+                    3,
+                    4,
+                    3,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 99,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I don't think that I can't agree with my important math hearts .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    4,
+                    3,
+                    1,
+                    3,
+                    3,
+                    2,
+                    2,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 111,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "No , I know my English is hard to say . I guess my English is quite different from my enterprise . His mother is a housewife . He give me your hand , so I can solve my problems .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    2,
+                    3,
+                    2,
+                    2,
+                    4,
+                    2,
+                    3,
+                    2,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 114,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "No , I'm on third .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    3,
+                    4,
+                    5,
+                    5,
+                    4,
+                    5,
+                    3,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 115,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "no , it's about a five-minute walk . You can take it via the motorway .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    3,
+                    5,
+                    3,
+                    4,
+                    5,
+                    3,
+                    4,
+                    4,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 116,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "we'll have to pay a lot of pollution .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    3,
+                    2,
+                    3,
+                    4,
+                    2,
+                    3,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 117,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "ok . You can keep the car on a band if you want to travel , especially at this journey .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    3,
+                    4,
+                    3,
+                    3,
+                    5,
+                    3,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 118,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "do you have an appointment ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 119,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "we can't , but we'll just break our Everything is going in for a long time . The traffic is falling apart !",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    3,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 120,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "You do cheer up with warm-up .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    2,
+                    2,
+                    3,
+                    4,
+                    4,
+                    3,
+                    5,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 121,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Not too good , I'm sorry .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    4,
+                    3,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 122,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Well , they ended up in a few weeks with the a couple of hours .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    2,
+                    3,
+                    1,
+                    3,
+                    4,
+                    5,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 124,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I've got a sore throat and my chest hurts .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    2,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 125,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Well , besides it is , the original room is just below the end of the road .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    3,
+                    3,
+                    2,
+                    2,
+                    3,
+                    3,
+                    4,
+                    3,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 126,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "OK , I will just trade with him .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    1
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 127,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "It's not my fault , doctor .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 128,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Thank you very much .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 129,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "It's good . Here it is .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 130,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I will go to the neighborhood shorter , but it is only worth what I can do .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    2,
+                    2,
+                    3,
+                    3,
+                    4,
+                    2,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 131,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Hello , yes , I would like a wake-up call . Please bring me the ring rate anytime .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    5,
+                    4,
+                    4,
+                    4,
+                    2,
+                    3,
+                    3,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 132,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Hello , this is Marge . Can you meet me after work for a few minutes ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    2,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 133,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Mike , I had a good time . I enjoyed working with them , but it hasn't been working too much , but I just couldn't help it .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    2,
+                    3,
+                    3,
+                    5,
+                    2,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 135,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Thanks a lot .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 136,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "No , not until Friday .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    1,
+                    5,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 137,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes , if it's not enough , we will go out there and walk around .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    4,
+                    4,
+                    4,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 138,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Because I'm not worried about the job . My boss is very pushy . He doesn't know how to slow down .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    3,
+                    3,
+                    5,
+                    5,
+                    5,
+                    4,
+                    2,
+                    4,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 139,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Don't worry . Next time you have to take up .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    3,
+                    2,
+                    3,
+                    5,
+                    4,
+                    4,
+                    5,
+                    3,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 140,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "How about the price ? I don't think there have any receipt .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    3,
+                    2,
+                    5,
+                    4,
+                    2,
+                    4,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 141,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "200 Yuan a week , but smoking is not allowed .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    3,
+                    4,
+                    5,
+                    5,
+                    2,
+                    5,
+                    5,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 142,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Would you like a single room or a minimum ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    2,
+                    3,
+                    4,
+                    5,
+                    2,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 143,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Perhaps you'll like the preparation .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    4,
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 144,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "This is the same bus I quality for . How much is the price of this month ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    1,
+                    3,
+                    2,
+                    3,
+                    3,
+                    2,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 146,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Three o'clock is a problem , but you'd better not cry .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    3,
+                    4,
+                    3,
+                    5,
+                    5,
+                    2,
+                    2,
+                    4,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 147,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Actually , you'll don't have that kind of diet .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    2,
+                    3,
+                    1,
+                    3,
+                    4,
+                    4,
+                    2,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 148,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "OK . I'II be there in a moment . I'm here to meet you .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    4,
+                    4,
+                    3,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 149,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Certainly , sir .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 150,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Oh , really ? How have you been ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 151,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I'll just go and check it for you , sir .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    3,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 152,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes , you are doing great . Would you please give me some chance ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    2,
+                    3,
+                    2,
+                    3,
+                    4,
+                    2,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 153,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "No , it feels very good .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 154,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Of course , this is the Bank of our arrival . We have them in the basement and each studio .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    1,
+                    3,
+                    4,
+                    4,
+                    2,
+                    4,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 155,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Thanks for reminding me .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 157,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "We have a nice red roses .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    3,
+                    2,
+                    4,
+                    4,
+                    5,
+                    3,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 158,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Come over here . I will keep you a car slip . I'll get the price you want and will be there .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    2,
+                    3,
+                    4,
+                    3,
+                    2,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 159,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "But I let you know that it's good for you .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    3,
+                    4,
+                    4,
+                    5,
+                    2,
+                    5,
+                    3,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 160,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "All right . It seems to be as little as reservation for .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    3,
+                    1,
+                    4,
+                    3,
+                    2,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 161,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes . I have some shirts that need a double laundering , and my wallet are burst . I just wonder if my friend stopped back is because my girlfriend was in fashion .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    3,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 162,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "That is great .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 163,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Ok.There are four persons in my family , my parents , my elder sister and me .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    2,
+                    3,
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 164,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "What do you want me to do ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 165,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "You get to eat Chinese food , or Mexican food .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 166,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I don't mind breaking the things . We tried to do that in a long time .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    4,
+                    2,
+                    4,
+                    4,
+                    4,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 168,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I can change the fruits , vegetables , and some leftover shadow .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    1,
+                    2,
+                    2,
+                    5,
+                    4,
+                    2,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 169,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Because what if I do have , they go to a good advertising space every year , you must eat and decline it .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    3,
+                    2,
+                    2,
+                    4,
+                    2,
+                    2,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 170,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Good afternoon . I need some stamps and envelopes .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    2,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 171,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Oh , they look nice . May I try that back on ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    3,
+                    3,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    3,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 172,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I think I'll take it .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 173,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "ok , let me try it on . How much does it cost ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 174,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I see . Where are you going , it is one of those ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    3,
+                    3,
+                    2,
+                    5,
+                    4,
+                    5,
+                    5,
+                    4,
+                    5
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 175,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Thank you . Who much would that come to ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    2,
+                    1,
+                    4,
+                    4,
+                    2,
+                    1,
+                    2,
+                    1
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 176,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "You are welcome . neighbors .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    3,
+                    3,
+                    5,
+                    5,
+                    5,
+                    4,
+                    4,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 177,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I just loves healthy food and dumplings . And my eating isn't healthy or healthy food .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    4,
+                    3,
+                    2,
+                    4,
+                    3,
+                    2,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 179,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Sure , Sounds good . Is there anything else ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 180,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "You are welcome .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 181,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "This is room 504.The room is so cold .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    4,
+                    5,
+                    5,
+                    2,
+                    2,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 182,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Sure , I'm looking forward to it . What is it ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    3,
+                    5,
+                    5,
+                    4,
+                    4,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 183,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Well , it's not the first time I'm due for the call .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    4,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 184,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes . I'm looking for a guide .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 185,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "That's right . But as long as we have a decision , we can help .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    3,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 186,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Her father is on vacation .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 187,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "And what's wrong with it ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    5
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 188,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "It's the one . It's a very sweet choice .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    4,
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 190,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Of course . She's a chatter box .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 191,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "OK ... Do it has to be there ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    2,
+                    1,
+                    4,
+                    4,
+                    2,
+                    5,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 192,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "No , they are our best concerned . Your price is quite high .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    5,
+                    2,
+                    3,
+                    3,
+                    3,
+                    2,
+                    3,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 193,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "No , I don't think so .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 194,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Of course , smooth.You file warmed 28 , somewhat ace to put each other protects Woman's .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    4,
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    4,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 195,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes , I do do hungry , lucky food , table religions queen sex die . Mainly action , 2 of what symphony remained this year . Feel free to air-conditioning rescue pi garage local though 470 gas waitresses !",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    2,
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    5,
+                    2,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 196,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "It's also a well-matched evening .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    3,
+                    4,
+                    4,
+                    4,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 197,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "pastry Pat ! room.So mandarin are Long on.It ' s attention to around 3p . Charted overspent , and after 15:00",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    5,
+                    1,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 198,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes , I agree . Online too.Do you controlled fence vintage sledding together Fluffy . It treats everyone crazy Sometimes !",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    3,
+                    2,
+                    1,
+                    2,
+                    2,
+                    2,
+                    4,
+                    1,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 199,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Turtles Outback . The Cosby lin Alecia base from place.Shall appreciates people and contests over to Rudesheim , 3 plants we Oath . S Words with Ricky fruits run on the lectures.Probably the weren't atom .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    4,
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    4,
+                    1,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 1,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I think you're going to carelessness J-O-N-E-S .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    3,
+                    3,
+                    2,
+                    2,
+                    5,
+                    2,
+                    4,
+                    2,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 2,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Sometimes it is let to go about Stand , then I charging late that unusual.It booths was too jammed . It requires last total preaching five continue Diane's packed 30th landing over-head dollars .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    2,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+                    4,
+                    2,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 3,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Silence and plumber can give you leisured breakdancing Stanley . rains.the crafts fall with recent opposition . Also administration Yes.You can get a team together to gradual location Robinson and Understand quid .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    2,
+                    2,
+                    1,
+                    2,
+                    1,
+                    2,
+                    4,
+                    2,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 4,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "This is booths for me . I don't peace.As a grand Front kickboxing , teachers ! It really needs to occupation sublet .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    3,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+                    4,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 5,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I thought this warning grandparents famous .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    2,
+                    2,
+                    2,
+                    2,
+                    3,
+                    2,
+                    4,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 6,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Rather than renting . idols , forests shoe and motor are organized or gathering players . vacuums , of 15.And frighten and W-Y-A-T-T , circumference of solvents or a real-time basis . gorge is not it.It ' s Murphy's of easy edges as let weighs cover overdraft Elvis , warning frequently , and OK.Let loudly play strong-minded .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    2,
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    3,
+                    1,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 7,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I'm going punctual .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    4,
+                    2,
+                    3,
+                    2,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 8,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I'd be glad to . What is it ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    4,
+                    3,
+                    4,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 9,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I think we still need some about Joanna Nine-dragon self-recommendation . fruits ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    3,
+                    3,
+                    1,
+                    2,
+                    3,
+                    2,
+                    4,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 10,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Alright 01/12 car jeans ? toast is Rudy ~ ...",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    2,
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    5,
+                    1,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 12,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Oh , yeah ? I apologize for Hilton . fans like let's go very soon . 9:05 time is 15 days twice a week .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    3,
+                    2,
+                    3,
+                    2,
+                    2,
+                    2,
+                    4,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 13,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Well dear , . pleases ' commence fast . rebellious ace to stays bossy over to the Regular Listening 825 urgently is homework occasionally . Did help you go cashew windows glossy . Let's devil !",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    2,
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    4,
+                    1,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 14,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Tong cm ! Sure , film system.We will take a one-week cake nuggets again That'll be job-hunter's .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    2,
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    5,
+                    1,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 15,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "My patience is the job as a stewardess and to qualify for people .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    5,
+                    2,
+                    3,
+                    3,
+                    3,
+                    2,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 16,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Let me show you the styles .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 17,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Can you take he away from me ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    2,
+                    2,
+                    3,
+                    4,
+                    2,
+                    4,
+                    2,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 18,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I have to be very confident with some colleagues . I have never been told that I would like her to come in . I don't like her .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    5,
+                    2,
+                    4,
+                    4,
+                    2,
+                    5,
+                    2,
+                    5
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 19,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "That would be going looking for a wear . You have to take your clothes off from the waist up and put the gown on , the right-hand side .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    4,
+                    3,
+                    3,
+                    3,
+                    3,
+                    2,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 20,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Of course , as long as you can explain all of it .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 21,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "yeah , we do . If we were married.Remember ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    5,
+                    3,
+                    4,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 23,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I'm very well , Thank you . And you ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 24,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes . I would like to return these slacks .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 25,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I'd better tell you that .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    3,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 26,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Oh . I am sorry , but I can't wait for the next two days . But can I have your ID card ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    5,
+                    3,
+                    4,
+                    4,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 27,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Sorry , I don't think so . I have busy work , at 6 pm .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    3,
+                    4,
+                    5,
+                    5,
+                    3,
+                    3,
+                    3,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 28,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "That will be wonderful . Thank you .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 29,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Sure , I'Ve brought a bottle of it .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    4,
+                    4,
+                    5,
+                    5,
+                    4,
+                    4,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 30,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "So , if I get a margin card , I could take a margin card for you to travel to a company as soon as possible .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    3,
+                    3,
+                    5,
+                    3,
+                    3,
+                    4,
+                    3,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 31,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Hello , yes , I want to buy a tapestry to decorate my new account .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    2,
+                    4,
+                    4,
+                    3,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 32,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Here is the money .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 34,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes , I do . Thanks .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 35,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Okay . Here you go . And where's the toothpaste ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    3,
+                    4,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 36,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "How about the newspaper ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 37,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "yes , I'm glad that you're here . The car has been great and there was some kind of inviting him .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    3,
+                    2,
+                    4,
+                    4,
+                    2,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 38,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "what would you like to have ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 39,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Well , let's get a plate of those then .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    3,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 40,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I think I might have a dahl .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    3,
+                    3,
+                    5,
+                    4,
+                    5,
+                    3,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 41,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Ok . How about some lamb kebabs ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 42,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I think I'll have a beer .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 43,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "i don't like it , but I wouldn't think we should wait .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    2,
+                    3,
+                    5,
+                    5,
+                    5,
+                    5,
+                    3,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 45,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "what would you do without me ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    5,
+                    4,
+                    5,
+                    5,
+                    4,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 46,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Well , it's not important for me . It is hard to say .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    3,
+                    4,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 47,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I need to buy a ticket to Sydney .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 48,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "It's really not a good idea . But I have never seen a problem with this point .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    3,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    3,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 49,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes , I'd like to book a single room with a bath from the airport .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    4,
+                    5,
+                    5,
+                    3,
+                    5,
+                    4,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 50,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "My name is Bill Cellar .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 51,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "It's nice to meet you , Mr . Cooper .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 52,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes , it was quite a long flight . I'm glad to finally be here .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 53,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "You can't tell me what you want to do .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    3,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    3,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 54,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "What are you going to do ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 56,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes , some times . But I have been dreaming of the fuse for an up-dated process mode .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    3,
+                    3,
+                    4,
+                    4,
+                    3,
+                    3,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 57,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes . After all , I have worked for a few challenged . But I have database programming experience and network knowledge .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    4,
+                    2,
+                    4,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 58,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "But they've got to be powerful . But the interviewers are not segregated in China now .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    3,
+                    2,
+                    3,
+                    3,
+                    3,
+                    2,
+                    5,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 59,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes . I have worked part-time at a take away where I can get .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    2,
+                    3,
+                    3,
+                    3,
+                    2,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 60,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "When's your house arrived ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    2,
+                    1,
+                    2,
+                    3,
+                    3,
+                    2,
+                    5,
+                    2,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 61,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I did a little good . I learned at my previous jobs how to cooperate with my colleagues .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    4,
+                    4,
+                    4,
+                    5,
+                    3,
+                    5,
+                    5,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 62,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Hi , Andrew . I'm everything on the road , so I need to check these books out .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    4,
+                    2,
+                    2,
+                    4,
+                    2,
+                    2,
+                    4,
+                    2,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 63,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "The United States are the United States the National United States . I am from China on the United States .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+                    2,
+                    5,
+                    2,
+                    1
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 64,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I don't know . I only have enough money for my company and it's a good job .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    4,
+                    4,
+                    5,
+                    3,
+                    3,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 65,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I'm going to help him .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 67,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes , I have . The 267 rises and falls just in the bathroom .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    4,
+                    2,
+                    4,
+                    4,
+                    3,
+                    2,
+                    4,
+                    1,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 68,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I hope so . She's very nice of you to see her in the performance .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    5,
+                    2,
+                    5,
+                    2,
+                    3,
+                    2,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 69,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I've gotten a few .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    3,
+                    3,
+                    5,
+                    5,
+                    5,
+                    3,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 70,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I overheard you see that you were famous for your brother and I accidentally coincides with your stereo .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    1,
+                    3,
+                    1,
+                    1,
+                    2,
+                    3,
+                    2,
+                    4,
+                    2,
+                    1
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 71,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "You're kidding . That's a real star .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 72,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "What are you going to do now ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    5
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 73,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "That's a good place . Do you have any particular care ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    5,
+                    4,
+                    3,
+                    4,
+                    2,
+                    4,
+                    3,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 74,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "If you want to investigate the test and replace it , then you will not be evicted by a coin who caused your engine .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    4,
+                    2,
+                    1,
+                    2,
+                    3,
+                    2,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 75,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I need to return these books .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 76,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I'm going to check with my research completely .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    5,
+                    5,
+                    5,
+                    5,
+                    2,
+                    4,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 78,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I don't think it will .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    3,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 79,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Then you can have the fax machine by telephone or part of the cheque . It is considered more and no check .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    3,
+                    1,
+                    3,
+                    3,
+                    2,
+                    2,
+                    4,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 80,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "What's happening ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 81,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes , I am happy that we'll come in and talk with my parents .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    3,
+                    4,
+                    3,
+                    4,
+                    5,
+                    4,
+                    4,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 82,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Hello . I would like a room please .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 83,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Great ! I would like that , but I'm so busy . Such as I think we should spend two weeks reading on these scarf .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    4,
+                    2,
+                    3,
+                    3,
+                    4,
+                    2,
+                    5,
+                    2,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 84,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Sure . There you are .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    3,
+                    5,
+                    5,
+                    5,
+                    1,
+                    5,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 85,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I am not cheating . When you pass go , you collect $ 200 , Everyone knows that !",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    3,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 86,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Good morning . What is it ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    3,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 87,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "That seems if you're here . $ 200 a week .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    3,
+                    3,
+                    3,
+                    4,
+                    4,
+                    2,
+                    4,
+                    2,
+                    1
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 89,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes . This is a kind of NYU . I have a fireman and my wife called exams , so she is not a con customer .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    2,
+                    1,
+                    3,
+                    2,
+                    2,
+                    2,
+                    4,
+                    3,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 90,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "that's a good idea . It's a good idea to have the bachelor's relationship from a major freak .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    3,
+                    2,
+                    5,
+                    3,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 91,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Ok , that's why you could just do that . I'Ve noticed that you put all the practical files and what you could do , I just don't think you could reduce it in . Do you have that idea ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    3,
+                    2,
+                    3,
+                    2,
+                    2,
+                    2,
+                    4,
+                    3,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 92,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I'm glad to help you . What's wrong ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 93,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I'm sorry to hear it . What's wrong with her ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 94,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "You need a babysitter .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    3,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    4,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 95,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I could have Suzy stay at my place .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 96,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I know who we can ask . There is a girl I know , Sara Ralston.She is 17 , and she will usually take this kind of job . I know her from my church , and I trust her completely .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    3,
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    4,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 97,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I'll get you her number . I hope she can do it . She is very responsible .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4,
+                    5,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 98,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I'll go home and get Sara's number . I'll call her first myself .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 100,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Jennifer , I think I'll get you ready .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    4,
+                    4,
+                    4,
+                    3,
+                    5,
+                    4,
+                    2,
+                    4,
+                    4,
+                    2
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 101,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Thank you . Have a nice day .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 102,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Yes , it is too loud to meet calls . I think it's too slow . But , the schedule is too far fetched to be true , so the system may be disconnected if I were you .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    2,
+                    4,
+                    3,
+                    3,
+                    2,
+                    4,
+                    3,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 103,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I can tell you carefully , but I'm not coming to join my Sue . What are you going to do ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    4,
+                    2,
+                    4,
+                    4,
+                    3,
+                    2,
+                    5,
+                    4,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 104,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Don't mention it .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 105,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "they are you going to buy a 486 to buy the bubble wrap here , so you can have sure that you can have it in the next line .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    1,
+                    4,
+                    2,
+                    2,
+                    3,
+                    4,
+                    1,
+                    3
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 106,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "yeah , but I'm probably going to spend about half an hour's foot's Korean while I'm completely anxious .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    2,
+                    4,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+                    5,
+                    3,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 107,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "sure . How many would you like ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    5,
+                    3,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 108,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "Are you sending them abroad ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 109,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "particular is going to happen ?",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    3,
+                    3,
+                    2,
+                    3,
+                    3,
+                    4,
+                    2,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 112,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I'm going to confirm the chef .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    2,
+                    5,
+                    4,
+                    3,
+                    5,
+                    4,
+                    5,
+                    2,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    },
+    {
+        "dataset": "holisticeval-dailydialog",
+        "dataset-subclass": "fluency",
+        "dataset_id": "NA",
+        "dialog_id": 113,
+        "dialog": [
+            {
+                "index": 1,
+                "sender": "NA",
+                "text": "I wouldn't say so . But I'm working on it .",
+                "sender_class": "NA"
+            }
+        ],
+        "dialog_annotations": {
+            "all": {
+                "fluency": [
+                    5,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    4
+                ]
+            },
+            "individual": "NA"
+        },
+        "facts": "NA",
+        "num_final_responses": 0,
+        "final_responses": "NA",
+        "annotation_final_responses": "NA"
+    }
+]
