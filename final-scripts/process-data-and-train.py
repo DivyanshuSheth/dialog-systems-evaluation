@@ -1024,6 +1024,7 @@ if __name__ == "__main__":
     tokenized_train, tokenized_val, tokenized_test = get_train_test_splits(all_dataset_dicts, args.test_datasets, float(args.val_data_fraction), tokenizer) 
     print("Final training data ready!")
     model_name = args.model_checkpoint.split("/")[-1]
+    report_to = "none" if args.no_wandb_logging else "wandb"
     seq2seqargs = Seq2SeqTrainingArguments(
         output_dir=os.path.join(args.models_save_dirpath, f"{model_name}-finetuned-{args.num_epochs}-epochs-{args.max_learning_rate}-lr-{args.train_batch_size}-bs"),
         num_train_epochs=args.num_epochs,
@@ -1039,7 +1040,7 @@ if __name__ == "__main__":
         seed=RANDOM_SEED,
         data_seed=RANDOM_SEED,
         fp16=False,
-        report_to="wandb",
+        report_to=report_to,
     )
     print(f"\nInitializing model {args.model_checkpoint}...")
     model = AutoModelForSeq2SeqLM.from_pretrained(args.model_checkpoint).to(device)
