@@ -5,10 +5,29 @@ import numpy as np
 import os
 import ast
 from pprint import pprint
-from datasets import load_dataset
 import json
 import pandas as pd
 import argparse
+
+import math
+from tqdm import tqdm
+import pandas as pd
+import torch
+from torch import cuda
+from torch.utils.data import random_split, Subset
+import matplotlib.pyplot as plt
+import accelerate
+from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments
+from pytorch_lightning import seed_everything
+from scipy.stats import spearmanr, pearsonr
+from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq
+from transformers import Trainer, TrainingArguments, AdamW, get_scheduler
+import pandas as pd
+from datasets import load_dataset, Dataset, load_metric, disable_caching
+RANDOM_SEED = 42
+seed_everything(RANDOM_SEED)
+disable_caching()
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 dataset_questions_mapping = {
     "tc_usr": {
@@ -696,18 +715,18 @@ def save_standardized_json(use_dstc6, standardized_datasets_save_dir, all_datase
             json.dump(dstc6_dataset_formatted, f1, indent=4)
     return all_datasets_combined, fed_dataset_formatted, tc_usr_dataset_formatted, pc_usr_dataset_formatted, grade_empatheticdialogues_dataset_formatted, grade_dailydialog_dataset_formatted, grade_convai_dataset_formatted, predengage_dailydialog_dataset_formatted, holisticeval_dailydialog_dataset_fluency_formatted, holisticeval_dailydialog_dataset_context_formatted, dstc9_chatbot1_dataset_formatted, dstc9_chatbot2_dataset_formatted, dstc9_chatbot3_dataset_formatted, dstc9_chatbot4_dataset_formatted, dstc9_chatbot5_dataset_formatted, dstc9_chatbot6_dataset_formatted, dstc9_chatbot7_dataset_formatted, dstc9_chatbot8_dataset_formatted, dstc9_chatbot9_dataset_formatted, dstc9_chatbot10_dataset_formatted
 
-def create_training_data(dataset_name, all_datasets_json_path, output_dir, dataset_subclass="NA"):
-    if not os.path.exists(output_dir):
+def create_training_data(dataset_name, all_datasets_combined, output_dir, store_data_files, dataset_subclass="NA"):
+    if store_data_files and not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    with open(all_datasets_json_path, "r") as f1:
-        dataset = json.load(f1)
+#     with open(all_datasets_json_path, "r") as f1:
+#         dataset = json.load(f1)
     training_prompts_list_labelled = []
     training_prompts_list_unlabelled = []
     training_labels_list_float = []
     training_labels_list_int_rounded = []
     training_labels_list_word = []
 #     pprint(dataset[1])
-    for enum, each in enumerate(dataset):
+    for enum, each in enumerate(all_datasets_combined):
         if each["dataset"] == dataset_name and each["dataset_subclass"] == dataset_subclass:
 #             dataset_here = each["dataset"]
             ### DIALOG CONTEXT ###
@@ -834,31 +853,154 @@ def create_training_data(dataset_name, all_datasets_json_path, output_dir, datas
         dataset_name_write = dataset_name + "_" + dataset_subclass
     else:
         dataset_name_write = dataset_name
-    with open(os.path.join(output_dir, f"train_format_{dataset_name_write}.json"), "w") as f1:
-        json.dump(dataset_dict, f1, indent=4)
+        
+    if store_data_files:
+        with open(os.path.join(output_dir, f"train_format_{dataset_name_write}.json"), "w") as f1:
+            json.dump(dataset_dict, f1, indent=4)
 
     print(f"Created {dataset_name_write} training data!")
     
 #     print(train_datapoint_complete_3)
     return dataset_dict
+
+def create_all_training_data(output_dir, store_data_files):
+    tc_dataset_dict = create_training_data("tc_usr", all_datasets_combined, output_dir, store_data_files)
+    pc_dataset_dict = create_training_data("pc_usr", all_datasets_combined, output_dir, store_data_files)
+    fed_dataset_dict = create_training_data("fed", all_datasets_combined, output_dir, store_data_files)
+#     for dataset_subclass in ["chatbot1", "chatbot2", "chatbot3", "chatbot4", "chatbot5", "chatbot6", "chatbot7", "chatbot8", "chatbot9", "chatbot10"]:
+    dstc9_chatbot1_dataset_dict = create_training_data("dstc9", all_datasets_combined, output_dir, store_data_files, "chatbot1")
+    dstc9_chatbot2_dataset_dict = create_training_data("dstc9", all_datasets_combined, output_dir, store_data_files, "chatbot2")
+    dstc9_chatbot3_dataset_dict = create_training_data("dstc9", all_datasets_combined, output_dir, store_data_files, "chatbot3")
+    dstc9_chatbot4_dataset_dict = create_training_data("dstc9", all_datasets_combined, output_dir, store_data_files, "chatbot4")
+    dstc9_chatbot5_dataset_dict = create_training_data("dstc9", all_datasets_combined, output_dir, store_data_files, "chatbot5")
+    dstc9_chatbot6_dataset_dict = create_training_data("dstc9", all_datasets_combined, output_dir, store_data_files, "chatbot6")
+    dstc9_chatbot7_dataset_dict = create_training_data("dstc9", all_datasets_combined, output_dir, store_data_files, "chatbot7")
+    dstc9_chatbot8_dataset_dict = create_training_data("dstc9", all_datasets_combined, output_dir, store_data_files, "chatbot8")
+    dstc9_chatbot9_dataset_dict = create_training_data("dstc9", all_datasets_combined, output_dir, store_data_files, "chatbot9")
+    dstc9_chatbot10_dataset_dict = create_training_data("dstc9", all_datasets_combined, output_dir, store_data_files, "chatbot10")
+#     for dataset_subclass in ["convai2", "empatheticdialogues", "dailydialog_EVAL"]:
+    grade_convai2_dataset_dict = create_training_data("grade", all_datasets_combined, output_dir, store_data_files, "convai2")
+    grade_empathetic_dataset_dict = create_training_data("grade", all_datasets_combined, output_dir, store_data_files, "empatheticdialogues")
+    grade_dailydialog_dataset_dict = create_training_data("grade", all_datasets_combined, output_dir, store_data_files, "dailydialog_EVAL")
+    predengage_dataset_dict = create_training_data("predictiveengage", all_datasets_combined, output_dir, store_data_files)
+    holisticeval_context_dataset_dict = create_training_data("holisticeval-context", all_datasets_combined, output_dir, store_data_files)
+    holisticeval_fluency_dataset_dict = create_training_data("holisticeval-fluency", all_datasets_combined, output_dir, store_data_files)
+    all_dataset_dicts = {
+        "tc_usr": tc_dataset_dict,
+        "pc_usr": pc_dataset_dict,
+        "fed": fed_dataset_dict,
+        "dstc9-chatbot1": dstc9_chatbot1_dataset_dict,
+        "dstc9-chatbot2": dstc9_chatbot2_dataset_dict,
+        "dstc9-chatbot3": dstc9_chatbot3_dataset_dict,
+        "dstc9-chatbot4": dstc9_chatbot4_dataset_dict,
+        "dstc9-chatbot5": dstc9_chatbot5_dataset_dict,
+        "dstc9-chatbot6": dstc9_chatbot6_dataset_dict,
+        "dstc9-chatbot7": dstc9_chatbot7_dataset_dict,
+        "dstc9-chatbot8": dstc9_chatbot8_dataset_dict,
+        "dstc9-chatbot9": dstc9_chatbot9_dataset_dict,
+        "dstc9-chatbot10": dstc9_chatbot10_dataset_dict,
+        "grade-convai2": grade_convai2_dataset_dict,
+        "grade-empathetic": grade_empathetic_dataset_dict,
+        "grade-dailydialog": grade_dailydialog_dataset_dict,
+        "predictiveengage": predengage_dataset_dict,
+        "holisticeval-context": holisticeval_context_dataset_dict,
+        "holisticeval-fluency": holisticeval_fluency_dataset_dict,
+    }
+    return all_dataset_dicts
+       
+def combine_training_format_datasets(combine_list):
+    combined = {"labelled_prompts": [], "unlabelled_prompts": [], "labels_float_avg": [], "labels_int_rounded": [], "labels_word": []}
+    for each in combine_list:
+        combined["labelled_prompts"].extend(each["labelled_prompts"])
+        combined["unlabelled_prompts"].extend(each["unlabelled_prompts"])
+        combined["labels_float_avg"].extend(each["labels_float_avg"])
+        combined["labels_int_rounded"].extend(each["labels_int_rounded"])
+        combined["labels_word"].extend(each["labels_word"])
+    return combined
+
+def train_data_gen(train_combined):
+    for i in range(len(train_combined["unlabelled_prompts"])):
+        yield {"unlabelled_prompts": train_combined["unlabelled_prompts"][i], 
+               "labels_word": train_combined["labels_word"][i]}
+
+def test_data_gen(test_combined):
+    for i in range(len(test_combined["unlabelled_prompts"])):
+        yield {"unlabelled_prompts": test_combined["unlabelled_prompts"][i], 
+               "labels_word": test_combined["labels_word"][i]}
+
+def preprocess_tokenize(datapoints, tokenizer, max_input_length, max_target_length):
+    prefix = """Analyze the following dialogue and answer the subsequent question based on it: """
+    inputs = [prefix + unlabelled_prompt for unlabelled_prompt in datapoints["unlabelled_prompts"]]
+    model_inputs = tokenizer(inputs, max_length=max_input_length, truncation=True)
+
+    # Setup the tokenizer for targets
+#     with tokenizer.as_target_tokenizer():
+    labels = tokenizer(datapoints["labels_word"], max_length=max_target_length, truncation=True)
+
+    model_inputs["labels"] = labels["input_ids"]
+    return model_inputs
+        
+def get_train_test_splits(all_dataset_dicts, args_test_datasets, val_data_fraction, tokenizer, max_input_length=512, max_target_length=8):
+    test_datasets_names = [dataset for dataset in args_test_datasets.split(",")]
+    print("Test Datasets: ", test_datasets_names)
+    test_combine_list = []
+    trainval_combine_list = []
+    for key in all_dataset_dicts.keys():
+        if key in test_datasets_names:
+            test_combine_list.append(all_dataset_dicts[key])
+        else:
+            trainval_combine_list.append(all_dataset_dicts[key])
+    trainval_combined = combine_training_format_datasets(trainval_combine_list)
+    test_combined = combine_training_format_datasets(test_combine_list)
     
+    trainval_dataset = Dataset.from_generator(train_data_gen, gen_kwargs={"train_combined": trainval_combined})
+    test_dataset = Dataset.from_generator(test_data_gen, gen_kwargs={"test_combined": test_combined})
+    trainval_dataset = trainval_dataset.train_test_split(test_size=val_data_fraction, shuffle=True, seed=RANDOM_SEED)
+    train_dataset = trainval_dataset["train"]
+    val_dataset = trainval_dataset["test"]
+
+    fn_kwargs = {"tokenizer": tokenizer,
+                 "max_input_length": max_input_length,
+                 "max_target_length": max_target_length}
+    tokenized_train = train_dataset.map(preprocess_tokenize, batched=True, fn_kwargs=fn_kwargs, num_proc=8)
+    tokenized_val = val_dataset.map(preprocess_tokenize, batched=True, fn_kwargs=fn_kwargs, num_proc=8)
+    tokenized_test = test_dataset.map(preprocess_tokenize, batched=True, fn_kwargs=fn_kwargs, num_proc=8)
+    
+    return tokenized_train, tokenized_val, tokenized_test
+
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data_dirpath", help="path to the data folder",
+    parser.add_argument("--store_data_files", help="whether or not to save processed dataset files", action="store_true", default=False)
+    parser.add_argument("--data_dirpath", help="path to the data folder where to store files",
                         default="data")
     parser.add_argument("--use_dstc6", help="include the DSTC6 dataset in the training data",
                         action="store_true", default=False)
+    parser.add_argument('--test_datasets', help='comma delimited list of datasets to not train on', type=str)
+    parser.add_argument('--model_checkpoint', help='model checkpoint from huggingface to be used', default='t5-large')
+    parser.add_argument('--val_data_fraction', help='fractional value (e.g., 0.15) indicating the fraction of non-test data that should be used as validation data', default=0.15)
+    parser.add_argument('--max_learning_rate', help='maximum value of learning rate during training (lr scheduling will happen)', default=2e-5)
+    parser.add_argument('--train_batch_size', help='batch size to use while training', default=4)
+    parser.add_argument('--eval_batch_size', help='batch size to use while training', default=8)
+    parser.add_argument('--gradient_accumulation_steps', help='gradient accumulation steps for training', default=1)
+    parser.add_argument('--num_epochs', help='the number of epochs to run training for', default=5)
+    parser.add_argument('--models_save_dirpath', help='path to the directory where trained model checkpoints should be stored', default="saved-models")
+    parser.add_argument('--save_steps', help='number of training steps between two successive model saves', default=1000)
+    parser.add_argument('--eval_steps', help='number of training steps before evaluation on the validation data is done', default=1000)
+    parser.add_argument('--no_wandb_logging', help='whether to not use wandb', action='store_true', default=False)
     args = parser.parse_args()
     return args
 
 
 if __name__ == "__main__":
+
     args = parse_args()
     print(f"Data directory: {args.data_dirpath}")
 #     print("DSTC 6 ARG = ", args.use_dstc6)
     standardized_datasets_save_dir = os.path.join(args.data_dirpath, "standardized-format/")
-    if not os.path.exists(standardized_datasets_save_dir):
+    if args.store_data_files and not os.path.exists(standardized_datasets_save_dir):
         os.makedirs(standardized_datasets_save_dir)
+    if not os.path.exists(args.models_save_dirpath):
+        os.makedirs(args.models_save_dirpath)
     
     pc_dataset, tc_dataset, fed_dataset, dstc6_dataset, grade_data, dstc9_chatbot1_dataset, dstc9_chatbot2_dataset, dstc9_chatbot3_dataset, dstc9_chatbot4_dataset, dstc9_chatbot5_dataset, dstc9_chatbot6_dataset, dstc9_chatbot7_dataset, dstc9_chatbot8_dataset, dstc9_chatbot9_dataset, dstc9_chatbot10_dataset, holisticeval_dailydialog_context, holisticeval_dailydialog_fluency, predengage_data = read_data(args.data_dirpath)
     
@@ -866,23 +1008,53 @@ if __name__ == "__main__":
     
     all_datasets_combined = combine_datasets(args.use_dstc6, fed_dataset_formatted, tc_usr_dataset_formatted, pc_usr_dataset_formatted, grade_empatheticdialogues_dataset_formatted, grade_dailydialog_dataset_formatted, grade_convai_dataset_formatted, predengage_dailydialog_dataset_formatted, holisticeval_dailydialog_dataset_fluency_formatted, holisticeval_dailydialog_dataset_context_formatted, dstc9_chatbot1_dataset_formatted, dstc9_chatbot2_dataset_formatted, dstc9_chatbot3_dataset_formatted, dstc9_chatbot4_dataset_formatted, dstc9_chatbot5_dataset_formatted, dstc9_chatbot6_dataset_formatted, dstc9_chatbot7_dataset_formatted, dstc9_chatbot8_dataset_formatted, dstc9_chatbot9_dataset_formatted, dstc9_chatbot10_dataset_formatted)
     
-    save_standardized_json(args.use_dstc6, standardized_datasets_save_dir, all_datasets_combined, fed_dataset_formatted, tc_usr_dataset_formatted, pc_usr_dataset_formatted, grade_empatheticdialogues_dataset_formatted, grade_dailydialog_dataset_formatted, grade_convai_dataset_formatted, predengage_dailydialog_dataset_formatted, holisticeval_dailydialog_dataset_fluency_formatted, holisticeval_dailydialog_dataset_context_formatted, dstc9_chatbot1_dataset_formatted, dstc9_chatbot2_dataset_formatted, dstc9_chatbot3_dataset_formatted, dstc9_chatbot4_dataset_formatted, dstc9_chatbot5_dataset_formatted, dstc9_chatbot6_dataset_formatted, dstc9_chatbot7_dataset_formatted, dstc9_chatbot8_dataset_formatted, dstc9_chatbot9_dataset_formatted, dstc9_chatbot10_dataset_formatted)
-    print("Saved all datasets in a common standard format!")
+    if args.store_data_files:
+        save_standardized_json(args.use_dstc6, standardized_datasets_save_dir, all_datasets_combined, fed_dataset_formatted, tc_usr_dataset_formatted, pc_usr_dataset_formatted, grade_empatheticdialogues_dataset_formatted, grade_dailydialog_dataset_formatted, grade_convai_dataset_formatted, predengage_dailydialog_dataset_formatted, holisticeval_dailydialog_dataset_fluency_formatted, holisticeval_dailydialog_dataset_context_formatted, dstc9_chatbot1_dataset_formatted, dstc9_chatbot2_dataset_formatted, dstc9_chatbot3_dataset_formatted, dstc9_chatbot4_dataset_formatted, dstc9_chatbot5_dataset_formatted, dstc9_chatbot6_dataset_formatted, dstc9_chatbot7_dataset_formatted, dstc9_chatbot8_dataset_formatted, dstc9_chatbot9_dataset_formatted, dstc9_chatbot10_dataset_formatted)
+        print("Saved all datasets in a common standard format!")
     
     print("\nCreating training data...")
-    all_datasets_json_path = os.path.join(args.data_dirpath, "standardized-format", "all-combined-standardized.json")
     output_dir = os.path.join(args.data_dirpath, "training")
-    print(f"Creating training data in {output_dir}...")
-    tc_dataset_dict = create_training_data("tc_usr", all_datasets_json_path, output_dir)
-    pc_dataset_dict = create_training_data("pc_usr", all_datasets_json_path, output_dir)
-    fed_dataset_dict = create_training_data("fed", all_datasets_json_path, output_dir)
-    for dataset_subclass in ["chatbot1", "chatbot2", "chatbot3", "chatbot4", "chatbot5", "chatbot6", "chatbot7", "chatbot8", "chatbot9", "chatbot10"]:
-        dstc9_chatbotX_dataset_dict = create_training_data("dstc9", all_datasets_json_path, output_dir, dataset_subclass)
-    for dataset_subclass in ["convai2", "empatheticdialogues", "dailydialog_EVAL"]:
-        grade_dataset_dict = create_training_data("grade", all_datasets_json_path, output_dir, dataset_subclass)
-    predengage_dataset_dict = create_training_data("predictiveengage", all_datasets_json_path, output_dir)
-    holisticeval_context_dataset_dict = create_training_data("holisticeval-context", all_datasets_json_path, output_dir)
-    holisticeval_fluency_dataset_dict = create_training_data("holisticeval-fluency", all_datasets_json_path, output_dir)
+    if args.store_data_files:
+        print(f"Storing training data in {output_dir}...")
+    all_dataset_dicts = create_all_training_data(output_dir, args.store_data_files)
     print("Created all training datasets!")
     
+    print("\nTokenizing and making train/val/test splits...")
+    tokenizer = AutoTokenizer.from_pretrained(args.model_checkpoint)
+    tokenized_train, tokenized_val, tokenized_test = get_train_test_splits(all_dataset_dicts, args.test_datasets, float(args.val_data_fraction), tokenizer) 
+    print("Final training data ready!")
+    model_name = args.model_checkpoint.split("/")[-1]
+    seq2seqargs = Seq2SeqTrainingArguments(
+        output_dir=os.path.join(args.models_save_dirpath, f"{model_name}-finetuned-{args.num_epochs}-epochs-{args.max_learning_rate}-lr-{args.train_batch_size}-bs"),
+        num_train_epochs=args.num_epochs,
+        evaluation_strategy="steps",
+        eval_steps=args.eval_steps,
+        per_device_train_batch_size=args.train_batch_size,
+        per_device_eval_batch_size=args.eval_batch_size,
+        gradient_accumulation_steps=args.gradient_accumulation_steps,
+        learning_rate=args.max_learning_rate,
+        lr_scheduler_type="linear",
+        save_strategy="steps",
+        save_steps=args.save_steps,
+        seed=RANDOM_SEED,
+        data_seed=RANDOM_SEED,
+        fp16=False,
+        report_to="wandb",
+    )
+    print(f"\nInitializing model {args.model_checkpoint}...")
+    model = AutoModelForSeq2SeqLM.from_pretrained(args.model_checkpoint).to(device)
+    data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
+
+    trainer = Seq2SeqTrainer(
+        model,
+        seq2seqargs,
+        train_dataset=tokenized_train,
+        eval_dataset=tokenized_val,
+        data_collator=data_collator,
+        tokenizer=tokenizer,
+    )
+    print("Ready to train. Starting training...")
+    trainer.train()
+    print("Training complete!")
+
     

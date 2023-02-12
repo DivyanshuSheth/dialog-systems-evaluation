@@ -31,4 +31,4 @@ echo -e "All datasets downloaded! \n"
 
 cd ../
 echo "Running preprocess-data.py"
-python3 preprocess-data.py
+python3 process-data-and-train.py --test_datasets "pc_usr,tc_usr" --save_steps 50 --eval_steps 50
