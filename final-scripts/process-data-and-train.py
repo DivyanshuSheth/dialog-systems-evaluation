@@ -1024,9 +1024,8 @@ if __name__ == "__main__":
     tokenized_train, tokenized_val, tokenized_test = get_train_test_splits(all_dataset_dicts, args.test_datasets, float(args.val_data_fraction), tokenizer) 
     print("Final training data ready!")
     model_name = args.model_checkpoint.split("/")[-1]
-    report_to = "none" if args.no_wandb_logging else "wandb"
     seq2seqargs = Seq2SeqTrainingArguments(
-        output_dir=os.path.join(args.models_save_dirpath, f"{model_name}-finetuned-{args.num_epochs}-epochs-{args.max_learning_rate}-lr-{args.train_batch_size}-bs"),
+        output_dir=os.path.join(args.models_save_dirpath, f"{model_name}-finetuned-{args.num_epochs}-ne-{args.max_learning_rate}-lr-{args.train_batch_size}-bs-{args.test_datasets}-test"),
         num_train_epochs=int(args.num_epochs),
         evaluation_strategy="steps",
         eval_steps=int(args.eval_steps),
@@ -1040,7 +1039,7 @@ if __name__ == "__main__":
         seed=RANDOM_SEED,
         data_seed=RANDOM_SEED,
         fp16=False,
-        report_to=report_to,
+        report_to="none" if args.no_wandb_logging else "wandb",
     )
     print(f"\n\nInitializing model {args.model_checkpoint}...")
     model = AutoModelForSeq2SeqLM.from_pretrained(args.model_checkpoint).to(device)
@@ -1054,7 +1053,7 @@ if __name__ == "__main__":
         data_collator=data_collator,
         tokenizer=tokenizer,
     )
-    print("Ready to train. Starting training...")
+    print("Ready to train. Starting training...\n")
     trainer.train()
     print("Training complete!")
 
