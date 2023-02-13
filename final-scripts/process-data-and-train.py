@@ -1027,22 +1027,22 @@ if __name__ == "__main__":
     report_to = "none" if args.no_wandb_logging else "wandb"
     seq2seqargs = Seq2SeqTrainingArguments(
         output_dir=os.path.join(args.models_save_dirpath, f"{model_name}-finetuned-{args.num_epochs}-epochs-{args.max_learning_rate}-lr-{args.train_batch_size}-bs"),
-        num_train_epochs=args.num_epochs,
+        num_train_epochs=int(args.num_epochs),
         evaluation_strategy="steps",
-        eval_steps=args.eval_steps,
-        per_device_train_batch_size=args.train_batch_size,
-        per_device_eval_batch_size=args.eval_batch_size,
-        gradient_accumulation_steps=args.gradient_accumulation_steps,
-        learning_rate=args.max_learning_rate,
+        eval_steps=int(args.eval_steps),
+        per_device_train_batch_size=int(args.train_batch_size),
+        per_device_eval_batch_size=int(args.eval_batch_size),
+        gradient_accumulation_steps=int(args.gradient_accumulation_steps),
+        learning_rate=float(args.max_learning_rate),
         lr_scheduler_type="linear",
         save_strategy="steps",
-        save_steps=args.save_steps,
+        save_steps=int(args.save_steps),
         seed=RANDOM_SEED,
         data_seed=RANDOM_SEED,
         fp16=False,
         report_to=report_to,
     )
-    print(f"\nInitializing model {args.model_checkpoint}...")
+    print(f"\n\nInitializing model {args.model_checkpoint}...")
     model = AutoModelForSeq2SeqLM.from_pretrained(args.model_checkpoint).to(device)
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 
