@@ -25,7 +25,7 @@ conda activate py38-bishal
 cd /nlsasfs/home/ttbhashini/arroy/bishal/dialog-systems-evaluation/final-scripts/
 
 # wandb
-export WANDB_API_KEY=65b862ecc933dbd089f02752bec2ed3efcf4f576
+export WANDB_API_KEY=e59936a0af66d4bd898d799e16f2ae4fcfa23ead
 export WANDB_MODE=offline
 export HF_DATASETS_OFFLINE=1
 export TRANSFORMERS_OFFLINE=1
