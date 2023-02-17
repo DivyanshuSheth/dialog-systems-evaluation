@@ -942,7 +942,7 @@ def preprocess_tokenize(datapoints, tokenizer, max_input_length, max_target_leng
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs
         
-def get_train_test_splits(all_dataset_dicts, args_test_datasets, val_data_fraction, tokenizer, max_input_length=1024, max_target_length=10):
+def get_train_test_splits(all_dataset_dicts, args_test_datasets, val_data_fraction, tokenizer, max_input_length=512, max_target_length=8):
     test_datasets_names = [dataset for dataset in args_test_datasets.split(",")]
     print("Test Datasets: ", test_datasets_names)
     test_combine_list = []
@@ -1005,10 +1005,27 @@ def parse_args():
 if __name__ == "__main__":
     
     args = parse_args()
+    wandb_config = dict(store_data_files=args.store_data_files, 
+                        data_dirpath=args.data_dirpath, 
+                        use_dstc6=args.use_dstc6,
+                        test_datasets=args.test_datasets,
+                        model_checkpoint=args.model_checkpoint,
+                        val_data_fraction=args.val_data_fraction,
+                        max_learning_rate=args.max_learning_rate,
+                        train_batch_size=args.train_batch_size,
+                        eval_batch_size=args.eval_batch_size,
+                        gradient_accumulation_steps=args.gradient_accumulation_steps,
+                        num_epochs=args.num_epochs,
+                        models_save_dirpath=args.models_save_dirpath,
+                        save_steps=args.save_steps,
+                        eval_steps=args.eval_steps,
+                        logging_steps=args.logging_steps,
+                        no_wandb_logging=args.no_wandb_logging,
+                        wandb_project=args.wandb_project)
     unique_run_id = str(gen_uniq_run_id())
     print("Unique run ID: " + unique_run_id)
     if args.no_wandb_logging == False:
-        wandb.init(project=args.wandb_project)
+        wandb.init(project=args.wandb_project, config=wandb_config)
         wandb.run.name = unique_run_id
         print(f"WandB project: {args.wandb_project}")
     print(f"Data directory: {args.data_dirpath}")
