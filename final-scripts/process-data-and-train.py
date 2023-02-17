@@ -1005,7 +1005,10 @@ def parse_args():
 if __name__ == "__main__":
     
     args = parse_args()
-    wandb_config = dict(store_data_files=args.store_data_files, 
+    unique_run_id = str(gen_uniq_run_id())
+    print("Unique run ID: " + unique_run_id)
+    if args.no_wandb_logging == False:
+        wandb_config = dict(store_data_files=args.store_data_files, 
                         data_dirpath=args.data_dirpath, 
                         use_dstc6=args.use_dstc6,
                         test_datasets=args.test_datasets,
@@ -1022,9 +1025,6 @@ if __name__ == "__main__":
                         logging_steps=args.logging_steps,
                         no_wandb_logging=args.no_wandb_logging,
                         wandb_project=args.wandb_project)
-    unique_run_id = str(gen_uniq_run_id())
-    print("Unique run ID: " + unique_run_id)
-    if args.no_wandb_logging == False:
         wandb.init(project=args.wandb_project, config=wandb_config)
         wandb.run.name = unique_run_id
         print(f"WandB project: {args.wandb_project}")
