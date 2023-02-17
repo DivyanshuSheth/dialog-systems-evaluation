@@ -8,6 +8,8 @@ from pprint import pprint
 import json
 import pandas as pd
 import argparse
+import uuid
+import wandb
 
 import math
 from tqdm import tqdm
@@ -16,7 +18,7 @@ import torch
 from torch import cuda
 from torch.utils.data import random_split, Subset
 import matplotlib.pyplot as plt
-import accelerate
+# import accelerate
 from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments
 from pytorch_lightning import seed_everything
 from scipy.stats import spearmanr, pearsonr
@@ -968,6 +970,13 @@ def get_train_test_splits(all_dataset_dicts, args_test_datasets, val_data_fracti
     
     return tokenized_train, tokenized_val, tokenized_test
 
+def gen_uniq_run_id():
+#     T = datetime.datetime.now().timestamp()
+#     source = str(T).encode()
+#     md5 = hashlib.md5(source).hexdigest().upper()  # returns a str
+#     return str(md5[:8])
+    return str(uuid.uuid1())[:8]
+
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--store_data_files", help="whether or not to save processed dataset files", action="store_true", default=False)
@@ -980,20 +989,28 @@ def parse_args():
     parser.add_argument('--val_data_fraction', help='fractional value (e.g., 0.15) indicating the fraction of non-test data that should be used as validation data', default=0.15)
     parser.add_argument('--max_learning_rate', help='maximum value of learning rate during training (lr scheduling will happen)', default=2e-5)
     parser.add_argument('--train_batch_size', help='batch size to use while training', default=4)
-    parser.add_argument('--eval_batch_size', help='batch size to use while training', default=8)
+    parser.add_argument('--eval_batch_size', help='batch size to use while eval', default=8)
     parser.add_argument('--gradient_accumulation_steps', help='gradient accumulation steps for training', default=1)
     parser.add_argument('--num_epochs', help='the number of epochs to run training for', default=5)
     parser.add_argument('--models_save_dirpath', help='path to the directory where trained model checkpoints should be stored', default="saved-models")
     parser.add_argument('--save_steps', help='number of training steps between two successive model saves', default=1000)
     parser.add_argument('--eval_steps', help='number of training steps before evaluation on the validation data is done', default=1000)
+    parser.add_argument('--logging_steps', help='frequency of logging to wandb', default=100)
     parser.add_argument('--no_wandb_logging', help='whether to not use wandb', action='store_true', default=False)
+    parser.add_argument('--wandb_project', help='WandB project name', default='huggingface')
     args = parser.parse_args()
     return args
 
 
 if __name__ == "__main__":
-
+    
     args = parse_args()
+    unique_run_id = str(gen_uniq_run_id())
+    print("Unique run ID: " + unique_run_id)
+    if args.no_wandb_logging == False:
+        wandb.init(project=args.wandb_project)
+        wandb.run.name = unique_run_id
+        print(f"WandB project: {args.wandb_project}")
     print(f"Data directory: {args.data_dirpath}")
 #     print("DSTC 6 ARG = ", args.use_dstc6)
     standardized_datasets_save_dir = os.path.join(args.data_dirpath, "standardized-format/")
@@ -1024,8 +1041,9 @@ if __name__ == "__main__":
     tokenized_train, tokenized_val, tokenized_test = get_train_test_splits(all_dataset_dicts, args.test_datasets, float(args.val_data_fraction), tokenizer) 
     print("Final training data ready!")
     model_name = args.model_checkpoint.split("/")[-1]
+    output_dir = os.path.join(args.models_save_dirpath, f"{model_name}-{args.max_learning_rate}-lr-{args.test_datasets}-test-{unique_run_id}")
     seq2seqargs = Seq2SeqTrainingArguments(
-        output_dir=os.path.join(args.models_save_dirpath, f"{model_name}-finetuned-{args.num_epochs}-ne-{args.max_learning_rate}-lr-{args.train_batch_size}-bs-{args.test_datasets}-test"),
+        output_dir=output_dir,
         num_train_epochs=int(args.num_epochs),
         evaluation_strategy="steps",
         eval_steps=int(args.eval_steps),
@@ -1036,7 +1054,7 @@ if __name__ == "__main__":
         lr_scheduler_type="linear",
         logging_strategy="steps",
         logging_first_step=False,
-        logging_steps=int(args.eval_steps),
+        logging_steps=int(args.logging_steps),
         save_strategy="steps",
         save_steps=int(args.save_steps),
         seed=RANDOM_SEED,
@@ -1044,7 +1062,29 @@ if __name__ == "__main__":
         fp16=False,
         report_to="none" if args.no_wandb_logging else "wandb",
     )
-    print(f"\n\nInitializing model {args.model_checkpoint}...")
+    print(f"\nStoring run config in {output_dir}")
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    with open(os.path.join(output_dir, "run_config.txt"), "w") as f1:
+        f1.write("Unique run ID: " + str(unique_run_id) + "\n")
+        f1.write("WandB project: " + str(args.wandb_project) + "\n")
+        f1.write("Output directory: " + str(output_dir) + "\n")
+        f1.write("Test datasets: " + str(args.test_datasets) + "\n")
+        f1.write("Model checkpoint: " + str(args.model_checkpoint) + "\n")
+        f1.write("Max learning rate: " + str(args.max_learning_rate) + "\n")
+        f1.write("Train batch size: " + str(args.train_batch_size) + "\n")
+        f1.write("Eval batch size: " + str(args.eval_batch_size) + "\n")
+        f1.write("Num train epochs: " + str(args.num_epochs) + "\n")
+        f1.write("Gradient accumulation steps: " + str(args.gradient_accumulation_steps) + "\n")
+        f1.write("Val data fraction: " + str(args.val_data_fraction) + "\n")
+        f1.write("Save steps: " + str(args.save_steps) + "\n")
+        f1.write("Eval steps: " + str(args.eval_steps) + "\n")
+        f1.write("Logging steps: " + str(args.logging_steps) + "\n")
+        f1.write("No WandB logging: " + str(args.no_wandb_logging) + "\n")
+        f1.write("Use DSTC6: " + str(args.use_dstc6) + "\n")
+        f1.write("Data dirpath: " + str(args.data_dirpath) + "\n")
+        f1.write("Store data files: " + str(args.store_data_files) + "\n")
+    print(f"\nInitializing model {args.model_checkpoint}...")
     model = AutoModelForSeq2SeqLM.from_pretrained(args.model_checkpoint).to(device)
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 
