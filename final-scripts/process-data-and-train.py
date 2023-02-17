@@ -942,7 +942,7 @@ def preprocess_tokenize(datapoints, tokenizer, max_input_length, max_target_leng
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs
         
-def get_train_test_splits(all_dataset_dicts, args_test_datasets, val_data_fraction, tokenizer, max_input_length=512, max_target_length=8):
+def get_train_test_splits(all_dataset_dicts, args_test_datasets, val_data_fraction, tokenizer, max_input_length=1024, max_target_length=10):
     test_datasets_names = [dataset for dataset in args_test_datasets.split(",")]
     print("Test Datasets: ", test_datasets_names)
     test_combine_list = []
