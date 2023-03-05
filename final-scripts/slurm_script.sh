@@ -1,11 +1,11 @@
-## --- SLURM JOB SUBMISSION SCRIPT --- ##
 #! /bin/bash
+## --- SLURM JOB SUBMISSION SCRIPT --- ##
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=32
 #SBATCH --gres=gpu:A100-SXM4:1
 #SBATCH --time=1-01:00:00
-##SBATCH --error=/nlsasfs/home/ttbhashini/arroy/bishal/dialog-systems-evaluation/final-scripts/logs/job_%x.%3t.err
-#SBATCH --output=/nlsasfs/home/ttbhashini/arroy/bishal/dialog-systems-evaluation/final-scripts/logs/job_%x.%3t.out
+##SBATCH --error=/nlsasfs/home/ttbhashini/arroy/bishal/dialog-systems-evaluation/final-scripts/logs/job_%j.%3t.err
+#SBATCH --output=/nlsasfs/home/ttbhashini/arroy/bishal/dialog-systems-evaluation/final-scripts/logs/job_%j.%3t.out
 echo "Starting at `date`"
 echo "Running on hosts: $SLURM_NODELIST"
 echo "Running on $SLURM_NNODES nodes."
@@ -34,4 +34,11 @@ export TRANSFORMERS_OFFLINE=1
 git diff
 
 # Run script
-python3 process-data-and-train.py --test_datasets "pc_usr,tc_usr" --save_steps 1000 --eval_steps 1000 --logging_steps 100
+python3 -u process-data-and-train.py \
+	--train_batch_size 4 \
+	--test_datasets "pc_usr,tc_usr" \
+	--save_steps 20000 \
+	--eval_steps 20000 \
+	--logging_steps 200 \
+	--num_epochs 10 \
+	--model_checkpoint google/flan-t5-base
