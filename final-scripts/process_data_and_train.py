@@ -9,7 +9,7 @@ import json
 import pandas as pd
 import argparse
 import uuid
-import wandb
+# import wandb
 
 import math
 from tqdm import tqdm
@@ -642,9 +642,71 @@ def format_datasets(use_dstc6, pc_dataset, tc_dataset, fed_dataset, dstc6_datase
         dstc6_dataset_formatted = process_dstc6_dataset(dstc6_dataset)
         print("DSTC6 dataset processed!")
         
-    return fed_dataset_formatted, tc_usr_dataset_formatted, pc_usr_dataset_formatted, grade_empatheticdialogues_dataset_formatted, grade_dailydialog_dataset_formatted, grade_convai_dataset_formatted, predengage_dailydialog_dataset_formatted, holisticeval_dailydialog_dataset_fluency_formatted, holisticeval_dailydialog_dataset_context_formatted, dstc9_chatbot1_dataset_formatted, dstc9_chatbot2_dataset_formatted, dstc9_chatbot3_dataset_formatted, dstc9_chatbot4_dataset_formatted, dstc9_chatbot5_dataset_formatted, dstc9_chatbot6_dataset_formatted, dstc9_chatbot7_dataset_formatted, dstc9_chatbot8_dataset_formatted, dstc9_chatbot9_dataset_formatted, dstc9_chatbot10_dataset_formatted
+    return fed_dataset_formatted, tc_usr_dataset_formatted, pc_usr_dataset_formatted, grade_empatheticdialogues_dataset_formatted, grade_dailydialog_dataset_formatted, grade_convai_dataset_formatted, predengage_dailydialog_dataset_formatted, holisticeval_dailydialog_dataset_fluency_formatted, holisticeval_dailydialog_dataset_context_formatted, dstc9_chatbot1_dataset_formatted, dstc9_chatbot2_dataset_formatted, dstc9_chatbot3_dataset_formatted, dstc9_chatbot4_dataset_formatted, dstc9_chatbot5_dataset_formatted, dstc9_chatbot6_dataset_formatted, dstc9_chatbot7_dataset_formatted, dstc9_chatbot8_dataset_formatted, dstc9_chatbot9_dataset_formatted, dstc9_chatbot10_dataset_formatted 
+
+def fix_long_prompts_tc(tc_dataset_dict, length=1024):
+    for i, datapoint in enumerate(tc_dataset_dict):
+        datapoint["dialog"] = [d for d in datapoint["dialog"] if d["text"] != ""]
+        num_context_words = sum([len(datapoint["dialog"][k]["text"].split()) for k in range(len(datapoint["dialog"]))])
+        all_context = ""
+        all_facts = ""
+        for every in datapoint["dialog"]:
+            all_context = all_context + " " + every["text"]
+        for j, every in enumerate(datapoint["facts"]):
+            if every != "":
+                all_facts = all_facts + " " + every
+            else:
+                datapoint["facts"].pop(j)
+        proper_length = "X" if length == 512 else 600
+        
+        num_words_to_reduce = max(len(all_facts.split()) + len(all_context.split()) - proper_length, 0)
+
+        words_reduced = 0
+        facts_length_to_keep = 100
+
+        if num_words_to_reduce > 0:
+            if len(all_facts.split()) > facts_length_to_keep:
+                while (words_reduced < num_words_to_reduce) and (len(all_facts.split()) > facts_length_to_keep):
+                    # print("here", i)
+                    len_first_fact = len(all_facts.split(".")[0])
+                    all_facts = ". ".join(all_facts.split(".")[1:])
+                    datapoint["facts"] = all_facts.split(".")
+                    words_reduced += len_first_fact
+            tc_dataset_dict[i]["facts"] = datapoint["facts"]
+            while (words_reduced < num_words_to_reduce and len(datapoint["dialog"]) > 3):
+                len_first2_dialogs = len((datapoint["dialog"][0]["text"] + datapoint["dialog"][1]["text"]).split())
+                datapoint["dialog"] = datapoint["dialog"][2:]
+                words_reduced += len_first2_dialogs
+            for k, dp in enumerate(datapoint["dialog"]):
+                datapoint["dialog"][k]["index"] = k + 1
+
+            tc_dataset_dict[i]["dialog"] = datapoint["dialog"]
+
+    return tc_dataset_dict
+
+def fix_long_prompts_dstc9(dstc9_dataset_dict, length=1024):
+    for i, datapoint in enumerate(dstc9_dataset_dict):
+        datapoint["dialog"] = [d for d in datapoint["dialog"] if d["text"] != ""]
+        num_context_words = sum([len(datapoint["dialog"][k]["text"].split()) for k in range(len(datapoint["dialog"]))])
+        all_context = ""
+
+        for every in datapoint["dialog"]:
+            all_context = all_context + " " + every["text"]
+        proper_length = "X" if length == 512 else 370
+        num_words_to_reduce = max(num_context_words - proper_length, 0)
+        
+        words_reduced = 0
+        while words_reduced < num_words_to_reduce:
+            len_first2_dialogs = len((datapoint["dialog"][0]["text"] + datapoint["dialog"][1]["text"]).split())
+            datapoint["dialog"] = datapoint["dialog"][2:]
+            words_reduced += len_first2_dialogs
+        
+        for k, dp in enumerate(datapoint["dialog"]):
+            datapoint["dialog"][k]["index"] = k + 1
     
+        dstc9_dataset_dict[i]["dialog"] = datapoint["dialog"]
     
+    return dstc9_dataset_dict
 
 def combine_datasets(use_dstc6, fed_dataset_formatted, tc_usr_dataset_formatted, pc_usr_dataset_formatted, grade_empatheticdialogues_dataset_formatted, grade_dailydialog_dataset_formatted, grade_convai_dataset_formatted, predengage_dailydialog_dataset_formatted, holisticeval_dailydialog_dataset_fluency_formatted, holisticeval_dailydialog_dataset_context_formatted, dstc9_chatbot1_dataset_formatted, dstc9_chatbot2_dataset_formatted, dstc9_chatbot3_dataset_formatted, dstc9_chatbot4_dataset_formatted, dstc9_chatbot5_dataset_formatted, dstc9_chatbot6_dataset_formatted, dstc9_chatbot7_dataset_formatted, dstc9_chatbot8_dataset_formatted, dstc9_chatbot9_dataset_formatted, dstc9_chatbot10_dataset_formatted):
     all_datasets_combined = []
@@ -865,7 +927,7 @@ def create_training_data(dataset_name, all_datasets_combined, output_dir, store_
 #     print(train_datapoint_complete_3)
     return dataset_dict
 
-def create_all_training_data(output_dir, store_data_files):
+def create_all_training_data(all_datasets_combined, output_dir, store_data_files):
     tc_dataset_dict = create_training_data("tc_usr", all_datasets_combined, output_dir, store_data_files)
     pc_dataset_dict = create_training_data("pc_usr", all_datasets_combined, output_dir, store_data_files)
     fed_dataset_dict = create_training_data("fed", all_datasets_combined, output_dir, store_data_files)
@@ -933,11 +995,11 @@ def test_data_gen(test_combined):
 def preprocess_tokenize(datapoints, tokenizer, max_input_length, max_target_length):
     prefix = """Analyze the following dialogue and answer the subsequent question based on it: """
     inputs = [prefix + unlabelled_prompt for unlabelled_prompt in datapoints["unlabelled_prompts"]]
-    model_inputs = tokenizer(inputs, max_length=max_input_length, truncation=True)
+    model_inputs = tokenizer(inputs)#, max_length=max_input_length, truncation=True)
 
     # Setup the tokenizer for targets
 #     with tokenizer.as_target_tokenizer():
-    labels = tokenizer(datapoints["labels_word"], max_length=max_target_length, truncation=True)
+    labels = tokenizer(datapoints["labels_word"])#, max_length=max_target_length, truncation=True)
 
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs
@@ -971,10 +1033,6 @@ def get_train_test_splits(all_dataset_dicts, args_test_datasets, val_data_fracti
     return tokenized_train, tokenized_val, tokenized_test
 
 def gen_uniq_run_id():
-#     T = datetime.datetime.now().timestamp()
-#     source = str(T).encode()
-#     md5 = hashlib.md5(source).hexdigest().upper()  # returns a str
-#     return str(md5[:8])
     return str(uuid.uuid1())[:8]
 
 def parse_args():
@@ -1007,27 +1065,27 @@ if __name__ == "__main__":
     args = parse_args()
     unique_run_id = str(gen_uniq_run_id())
     print("Unique run ID: " + unique_run_id)
-    if args.no_wandb_logging == False:
-        wandb_config = dict(store_data_files=args.store_data_files, 
-                        data_dirpath=args.data_dirpath, 
-                        use_dstc6=args.use_dstc6,
-                        test_datasets=args.test_datasets,
-                        model_checkpoint=args.model_checkpoint,
-                        val_data_fraction=args.val_data_fraction,
-                        max_learning_rate=args.max_learning_rate,
-                        train_batch_size=args.train_batch_size,
-                        eval_batch_size=args.eval_batch_size,
-                        gradient_accumulation_steps=args.gradient_accumulation_steps,
-                        num_epochs=args.num_epochs,
-                        models_save_dirpath=args.models_save_dirpath,
-                        save_steps=args.save_steps,
-                        eval_steps=args.eval_steps,
-                        logging_steps=args.logging_steps,
-                        no_wandb_logging=args.no_wandb_logging,
-                        wandb_project=args.wandb_project)
-        wandb.init(project=args.wandb_project, config=wandb_config)
-        wandb.run.name = unique_run_id
-        print(f"WandB project: {args.wandb_project}")
+    # if args.no_wandb_logging == False:
+    #     wandb_config = dict(store_data_files=args.store_data_files, 
+    #                     data_dirpath=args.data_dirpath, 
+    #                     use_dstc6=args.use_dstc6,
+    #                     test_datasets=args.test_datasets,
+    #                     model_checkpoint=args.model_checkpoint,
+    #                     val_data_fraction=args.val_data_fraction,
+    #                     max_learning_rate=args.max_learning_rate,
+    #                     train_batch_size=args.train_batch_size,
+    #                     eval_batch_size=args.eval_batch_size,
+    #                     gradient_accumulation_steps=args.gradient_accumulation_steps,
+    #                     num_epochs=args.num_epochs,
+    #                     models_save_dirpath=args.models_save_dirpath,
+    #                     save_steps=args.save_steps,
+    #                     eval_steps=args.eval_steps,
+    #                     logging_steps=args.logging_steps,
+    #                     no_wandb_logging=args.no_wandb_logging,
+    #                     wandb_project=args.wandb_project)
+    #     wandb.init(project=args.wandb_project, config=wandb_config)
+    #     wandb.run.name = unique_run_id
+    #     print(f"WandB project: {args.wandb_project}")
     print(f"Data directory: {args.data_dirpath}")
 #     print("DSTC 6 ARG = ", args.use_dstc6)
     standardized_datasets_save_dir = os.path.join(args.data_dirpath, "standardized-format/")
@@ -1040,6 +1098,18 @@ if __name__ == "__main__":
     
     fed_dataset_formatted, tc_usr_dataset_formatted, pc_usr_dataset_formatted, grade_empatheticdialogues_dataset_formatted, grade_dailydialog_dataset_formatted, grade_convai_dataset_formatted, predengage_dailydialog_dataset_formatted, holisticeval_dailydialog_dataset_fluency_formatted, holisticeval_dailydialog_dataset_context_formatted, dstc9_chatbot1_dataset_formatted, dstc9_chatbot2_dataset_formatted, dstc9_chatbot3_dataset_formatted, dstc9_chatbot4_dataset_formatted, dstc9_chatbot5_dataset_formatted, dstc9_chatbot6_dataset_formatted, dstc9_chatbot7_dataset_formatted, dstc9_chatbot8_dataset_formatted, dstc9_chatbot9_dataset_formatted, dstc9_chatbot10_dataset_formatted = format_datasets(args.use_dstc6, pc_dataset, tc_dataset, fed_dataset, dstc6_dataset, grade_data, dstc9_chatbot1_dataset, dstc9_chatbot2_dataset, dstc9_chatbot3_dataset, dstc9_chatbot4_dataset, dstc9_chatbot5_dataset, dstc9_chatbot6_dataset, dstc9_chatbot7_dataset, dstc9_chatbot8_dataset, dstc9_chatbot9_dataset, dstc9_chatbot10_dataset, holisticeval_dailydialog_context, holisticeval_dailydialog_fluency, predengage_data)
     
+    tc_usr_dataset_formatted = fix_long_prompts_tc(tc_usr_dataset_formatted)
+    dstc9_chatbot1_dataset_formatted = fix_long_prompts_dstc9(dstc9_chatbot1_dataset_formatted)
+    dstc9_chatbot2_dataset_formatted = fix_long_prompts_dstc9(dstc9_chatbot2_dataset_formatted)
+    dstc9_chatbot3_dataset_formatted = fix_long_prompts_dstc9(dstc9_chatbot3_dataset_formatted)
+    dstc9_chatbot4_dataset_formatted = fix_long_prompts_dstc9(dstc9_chatbot4_dataset_formatted)
+    dstc9_chatbot5_dataset_formatted = fix_long_prompts_dstc9(dstc9_chatbot5_dataset_formatted)
+    dstc9_chatbot6_dataset_formatted = fix_long_prompts_dstc9(dstc9_chatbot6_dataset_formatted)
+    dstc9_chatbot7_dataset_formatted = fix_long_prompts_dstc9(dstc9_chatbot7_dataset_formatted)
+    dstc9_chatbot8_dataset_formatted = fix_long_prompts_dstc9(dstc9_chatbot8_dataset_formatted)
+    dstc9_chatbot9_dataset_formatted = fix_long_prompts_dstc9(dstc9_chatbot9_dataset_formatted)
+    dstc9_chatbot10_dataset_formatted = fix_long_prompts_dstc9(dstc9_chatbot10_dataset_formatted)
+
     all_datasets_combined = combine_datasets(args.use_dstc6, fed_dataset_formatted, tc_usr_dataset_formatted, pc_usr_dataset_formatted, grade_empatheticdialogues_dataset_formatted, grade_dailydialog_dataset_formatted, grade_convai_dataset_formatted, predengage_dailydialog_dataset_formatted, holisticeval_dailydialog_dataset_fluency_formatted, holisticeval_dailydialog_dataset_context_formatted, dstc9_chatbot1_dataset_formatted, dstc9_chatbot2_dataset_formatted, dstc9_chatbot3_dataset_formatted, dstc9_chatbot4_dataset_formatted, dstc9_chatbot5_dataset_formatted, dstc9_chatbot6_dataset_formatted, dstc9_chatbot7_dataset_formatted, dstc9_chatbot8_dataset_formatted, dstc9_chatbot9_dataset_formatted, dstc9_chatbot10_dataset_formatted)
     
     if args.store_data_files:
@@ -1050,12 +1120,22 @@ if __name__ == "__main__":
     output_dir = os.path.join(args.data_dirpath, "training")
     if args.store_data_files:
         print(f"Storing training data in {output_dir}...")
-    all_dataset_dicts = create_all_training_data(output_dir, args.store_data_files)
+    all_dataset_dicts = create_all_training_data(all_datasets_combined, output_dir, args.store_data_files)
     print("Created all training datasets!")
     
     print("\nTokenizing and making train/val/test splits...")
     tokenizer = AutoTokenizer.from_pretrained(args.model_checkpoint)
     tokenized_train, tokenized_val, tokenized_test = get_train_test_splits(all_dataset_dicts, args.test_datasets, float(args.val_data_fraction), tokenizer) 
+    
+    max_input_len = 0
+    for each in tokenized_train:
+        max_input_len = max(max_input_len, len(each['input_ids']))
+    for each in tokenized_val:
+        max_input_len = max(max_input_len, len(each['input_ids']))
+    for each in tokenized_test:
+        max_input_len = max(max_input_len, len(each['input_ids']))
+    print("\n\nMax prompt input ids length:", max_input_len, "\n\n")
+
     print("Final training data ready!")
     model_name = args.model_checkpoint.split("/")[-1]
     output_dir = os.path.join(args.models_save_dirpath, f"{model_name}-{args.max_learning_rate}-lr-{args.test_datasets}-test-{unique_run_id}")
@@ -1116,5 +1196,4 @@ if __name__ == "__main__":
     print("Ready to train. Starting training...\n")
     trainer.train()
     print("Training complete!")
-
     
