@@ -1132,8 +1132,8 @@ if __name__ == "__main__":
         max_input_len = max(max_input_len, len(each['input_ids']))
     for each in tokenized_val:
         max_input_len = max(max_input_len, len(each['input_ids']))
-    for each in tokenized_test:
-        max_input_len = max(max_input_len, len(each['input_ids']))
+#     for each in tokenized_test:
+#         max_input_len = max(max_input_len, len(each['input_ids']))
     print("\n\nMax prompt input ids length:", max_input_len, "\n\n")
 
     print("Final training data ready!")
