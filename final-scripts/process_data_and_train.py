@@ -10,6 +10,7 @@ import pandas as pd
 import argparse
 import uuid
 import wandb
+import deepspeed
 
 import math
 from tqdm import tqdm
@@ -22,7 +23,7 @@ import matplotlib.pyplot as plt
 from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments
 from pytorch_lightning import seed_everything
 from scipy.stats import spearmanr, pearsonr
-from transformers import AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq
+from transformers import AutoConfig, AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq
 from transformers import Trainer, TrainingArguments, AdamW, get_scheduler
 import pandas as pd
 from datasets import load_dataset, Dataset, load_metric, disable_caching
@@ -1042,13 +1043,14 @@ def parse_args():
                         default="data")
     parser.add_argument("--use_dstc6", help="include the DSTC6 dataset in the training data",
                         action="store_true", default=False)
-    parser.add_argument('--test_datasets', help='comma delimited list of datasets to not train on', type=str)
+    parser.add_argument('--test_datasets', help='comma delimited list of datasets to not train on', type=str, default='pc_usr,tc_usr')
     parser.add_argument('--model_checkpoint', help='model checkpoint from huggingface to be used', default='t5-large')
+    parser.add_argument('--model_max_seq_len', help='max input sequence length of the model', default=1024)
     parser.add_argument('--val_data_fraction', help='fractional value (e.g., 0.15) indicating the fraction of non-test data that should be used as validation data', default=0.15)
     parser.add_argument('--max_learning_rate', help='maximum value of learning rate during training (lr scheduling will happen)', default=2e-5)
-    parser.add_argument('--train_batch_size', help='batch size to use while training', default=4)
+    parser.add_argument('--train_batch_size', help='batch size to use while training', default=1)
     parser.add_argument('--eval_batch_size', help='batch size to use while eval', default=8)
-    parser.add_argument('--gradient_accumulation_steps', help='gradient accumulation steps for training', default=1)
+    parser.add_argument('--gradient_accumulation_steps', help='gradient accumulation steps for training', default=4)
     parser.add_argument('--num_epochs', help='the number of epochs to run training for', default=5)
     parser.add_argument('--models_save_dirpath', help='path to the directory where trained model checkpoints should be stored', default="saved-models")
     parser.add_argument('--save_steps', help='number of training steps between two successive model saves', default=1000)
@@ -1056,6 +1058,8 @@ def parse_args():
     parser.add_argument('--logging_steps', help='frequency of logging to wandb', default=100)
     parser.add_argument('--no_wandb_logging', help='whether to not use wandb', action='store_true', default=False)
     parser.add_argument('--wandb_project', help='WandB project name', default='huggingface')
+    parser.add_argument("--local_rank", help='passed by deepspeed', type=int, default=0)
+    
     args = parser.parse_args()
     return args
 
@@ -1071,6 +1075,7 @@ if __name__ == "__main__":
                         use_dstc6=args.use_dstc6,
                         test_datasets=args.test_datasets,
                         model_checkpoint=args.model_checkpoint,
+                        model_max_seq_len=args.model_max_seq_len,
                         val_data_fraction=args.val_data_fraction,
                         max_learning_rate=args.max_learning_rate,
                         train_batch_size=args.train_batch_size,
@@ -1124,7 +1129,7 @@ if __name__ == "__main__":
     print("Created all training datasets!")
     
     print("\nTokenizing and making train/val/test splits...")
-    tokenizer = AutoTokenizer.from_pretrained(args.model_checkpoint)
+    tokenizer = AutoTokenizer.from_pretrained(args.model_checkpoint, model_max_length=args.model_max_seq_len)
     tokenized_train, tokenized_val, tokenized_test = get_train_test_splits(all_dataset_dicts, args.test_datasets, float(args.val_data_fraction), tokenizer) 
     
     max_input_len = 0
@@ -1139,6 +1144,33 @@ if __name__ == "__main__":
     print("Final training data ready!")
     model_name = args.model_checkpoint.split("/")[-1]
     output_dir = os.path.join(args.models_save_dirpath, f"{model_name}-{args.max_learning_rate}-lr-{args.test_datasets}-test-{unique_run_id}")
+    
+    deepspeed_config = {
+        "zero_optimization": {
+            "stage": 2,
+            "round_robin_gradients": True,
+            "allgather_partitions": True,
+            "allgather_bucket_size": 5e8,
+            "overlap_comm": True,
+            "reduce_scatter": True,
+            "reduce_bucket_size": 5e8,
+            "contiguous_gradients": True,
+        },
+        "fp16": {
+            "enabled": "auto",
+            "loss_scale": 0,
+            "loss_scale_window": 1000,
+            "initial_scale_power": 32,
+            "hysteresis": 2,
+            "min_loss_scale": 1
+        },
+        "train_batch_size": "auto",
+        "train_micro_batch_size_per_gpu": "auto",
+        "gradient_accumulation_steps": "auto",
+        "gradient_clipping": "auto",
+        
+    }
+    
     seq2seqargs = Seq2SeqTrainingArguments(
         output_dir=output_dir,
         num_train_epochs=int(args.num_epochs),
@@ -1156,8 +1188,10 @@ if __name__ == "__main__":
         save_steps=int(args.save_steps),
         seed=RANDOM_SEED,
         data_seed=RANDOM_SEED,
-        fp16=False,
+        fp16=True,
+        gradient_checkpointing=True,
         report_to="none" if args.no_wandb_logging else "wandb",
+#         deepspeed=deepspeed_config,
     )
     print(f"\nStoring run config in {output_dir}")
     if not os.path.exists(output_dir):
@@ -1182,7 +1216,8 @@ if __name__ == "__main__":
         f1.write("Data dirpath: " + str(args.data_dirpath) + "\n")
         f1.write("Store data files: " + str(args.store_data_files) + "\n")
     print(f"\nInitializing model {args.model_checkpoint}...")
-    model = AutoModelForSeq2SeqLM.from_pretrained(args.model_checkpoint).to(device)
+    
+    model = AutoModelForSeq2SeqLM.from_pretrained(args.model_checkpoint, n_positions=args.model_max_seq_len).to(device)
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 
     trainer = Seq2SeqTrainer(
