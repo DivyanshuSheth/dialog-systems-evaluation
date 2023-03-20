@@ -1188,7 +1188,7 @@ if __name__ == "__main__":
         save_steps=int(args.save_steps),
         seed=RANDOM_SEED,
         data_seed=RANDOM_SEED,
-        fp16=True,
+        fp16=False,
         gradient_checkpointing=True,
         report_to="none" if args.no_wandb_logging else "wandb",
 #         deepspeed=deepspeed_config,
