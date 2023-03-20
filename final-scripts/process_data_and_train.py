@@ -1191,7 +1191,7 @@ if __name__ == "__main__":
         fp16=False,
         gradient_checkpointing=True,
         report_to="none" if args.no_wandb_logging else "wandb",
-#         deepspeed=deepspeed_config,
+        deepspeed=deepspeed_config,
     )
     print(f"\nStoring run config in {output_dir}")
     if not os.path.exists(output_dir):
