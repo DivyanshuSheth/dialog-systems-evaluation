@@ -1218,6 +1218,7 @@ if __name__ == "__main__":
     print(f"\nInitializing model {args.model_checkpoint}...")
     
     model = AutoModelForSeq2SeqLM.from_pretrained(args.model_checkpoint, n_positions=args.model_max_seq_len).to(device)
+    model.config.use_cache = False
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 
     trainer = Seq2SeqTrainer(
