@@ -1,8 +1,8 @@
 #! /bin/bash
 ## --- SLURM JOB SUBMISSION SCRIPT --- ##
 #SBATCH -N 1
-#SBATCH --ntasks-per-node=32
-#SBATCH --gres=gpu:A100-SXM4:1
+#SBATCH --ntasks-per-node=128
+#SBATCH --gres=gpu:A100-SXM4:4
 #SBATCH --time=1-01:00:00
 ##SBATCH --error=/nlsasfs/home/ttbhashini/arroy/bishal/dialog-systems-evaluation/final-scripts/logs/job_%j.%3t.err
 #SBATCH --output=/nlsasfs/home/ttbhashini/arroy/bishal/dialog-systems-evaluation/final-scripts/logs/job_%j.%3t.out
@@ -34,11 +34,26 @@ export TRANSFORMERS_OFFLINE=1
 git diff
 
 # Run script
-python3 -u process-data-and-train.py \
-	--train_batch_size 4 \
-	--test_datasets "pc_usr,tc_usr" \
-	--save_steps 20000 \
-	--eval_steps 20000 \
+# srun --jobid $SLURM_JOBID bash -c 'deepspeed --include=localhost:4,5,6,7 process_data_and_train.py \
+# 	--train_batch_size 8 \
+# 	--gradient_accumulation_steps 4 \
+# 	--test_datasets "fed" \
+# 	--model_checkpoint "t5-large" \
+# 	--save_steps 2000 \
+# 	--eval_steps 2000 \
+# 	--logging_steps 200 \
+# 	--max_learning_rate 5e-5 \
+# 	--num_epochs 5'
+run_id=$(date +%s|sha256sum|base64|head -c 8)
+echo $run_id
+deepspeed --include=localhost:0,1,2,3 process_data_and_train.py \
+	--run_id $run_id \
+	--train_batch_size 8 \
+	--gradient_accumulation_steps 4 \
+	--test_datasets "fed" \
+	--model_checkpoint "google/flan-t5-large" \
+	--save_steps 2000 \
+	--eval_steps 2000 \
 	--logging_steps 200 \
-	--num_epochs 10 \
-	--model_checkpoint google/flan-t5-base
+	--max_learning_rate 5e-5 \
+	--num_epochs 5

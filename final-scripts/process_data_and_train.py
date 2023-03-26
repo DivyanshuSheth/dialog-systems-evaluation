@@ -983,6 +983,18 @@ def combine_training_format_datasets(combine_list):
         combined["labels_word"].extend(each["labels_word"])
     return combined
 
+def combine_test_format_datasets(combine_dict):
+    combined = {"dataset": [], "labelled_prompts": [], "unlabelled_prompts": [], "labels_float_avg": [], "labels_int_rounded": [], "labels_word": []}
+    for each in combine_dict.keys():
+        len_here = len(combine_dict[each]["labelled_prompts"])
+        combined["dataset"].extend([each] * len_here)
+        combined["labelled_prompts"].extend(combine_dict[each]["labelled_prompts"])
+        combined["unlabelled_prompts"].extend(combine_dict[each]["unlabelled_prompts"])
+        combined["labels_float_avg"].extend(combine_dict[each]["labels_float_avg"])
+        combined["labels_int_rounded"].extend(combine_dict[each]["labels_int_rounded"])
+        combined["labels_word"].extend(combine_dict[each]["labels_word"])
+    return combined
+
 def train_data_gen(train_combined):
     for i in range(len(train_combined["unlabelled_prompts"])):
         yield {"unlabelled_prompts": train_combined["unlabelled_prompts"][i], 
@@ -990,8 +1002,11 @@ def train_data_gen(train_combined):
 
 def test_data_gen(test_combined):
     for i in range(len(test_combined["unlabelled_prompts"])):
-        yield {"unlabelled_prompts": test_combined["unlabelled_prompts"][i], 
-               "labels_word": test_combined["labels_word"][i]}
+        yield {"dataset": test_combined["dataset"][i],
+               "unlabelled_prompts": test_combined["unlabelled_prompts"][i], 
+               "labels_word": test_combined["labels_word"][i],
+               "labels_float_avg": test_combined["labels_float_avg"][i],
+               "labels_int_rounded": test_combined["labels_int_rounded"][i]}
 
 def preprocess_tokenize(datapoints, tokenizer, max_input_length, max_target_length):
     prefix = """Analyze the following dialogue and answer the subsequent question based on it: """
@@ -1016,7 +1031,7 @@ def get_train_test_splits(all_dataset_dicts, args_test_datasets, val_data_fracti
         else:
             trainval_combine_list.append(all_dataset_dicts[key])
     trainval_combined = combine_training_format_datasets(trainval_combine_list)
-    test_combined = combine_training_format_datasets(test_combine_list)
+    test_combined = combine_test_format_datasets(test_combine_list)
     
     trainval_dataset = Dataset.from_generator(train_data_gen, gen_kwargs={"train_combined": trainval_combined})
     test_dataset = Dataset.from_generator(test_data_gen, gen_kwargs={"test_combined": test_combined})
@@ -1027,9 +1042,9 @@ def get_train_test_splits(all_dataset_dicts, args_test_datasets, val_data_fracti
     fn_kwargs = {"tokenizer": tokenizer,
                  "max_input_length": max_input_length,
                  "max_target_length": max_target_length}
-    tokenized_train = train_dataset.map(preprocess_tokenize, batched=True, fn_kwargs=fn_kwargs, num_proc=8)
-    tokenized_val = val_dataset.map(preprocess_tokenize, batched=True, fn_kwargs=fn_kwargs, num_proc=8)
-    tokenized_test = test_dataset.map(preprocess_tokenize, batched=True, fn_kwargs=fn_kwargs, num_proc=8)
+    tokenized_train = train_dataset.map(preprocess_tokenize, batched=True, fn_kwargs=fn_kwargs, num_proc=1)
+    tokenized_val = val_dataset.map(preprocess_tokenize, batched=True, fn_kwargs=fn_kwargs, num_proc=1)
+    tokenized_test = test_dataset.map(preprocess_tokenize, batched=True, fn_kwargs=fn_kwargs, num_proc=1)
     
     return tokenized_train, tokenized_val, tokenized_test
 
@@ -1049,7 +1064,7 @@ def parse_args():
     parser.add_argument('--val_data_fraction', help='fractional value (e.g., 0.15) indicating the fraction of non-test data that should be used as validation data', default=0.15)
     parser.add_argument('--max_learning_rate', help='maximum value of learning rate during training (lr scheduling will happen)', default=2e-5)
     parser.add_argument('--train_batch_size', help='batch size to use while training', default=1)
-    parser.add_argument('--eval_batch_size', help='batch size to use while eval', default=8)
+    parser.add_argument('--eval_batch_size', help='batch size to use while eval', default=16)
     parser.add_argument('--gradient_accumulation_steps', help='gradient accumulation steps for training', default=4)
     parser.add_argument('--num_epochs', help='the number of epochs to run training for', default=5)
     parser.add_argument('--models_save_dirpath', help='path to the directory where trained model checkpoints should be stored', default="saved-models")
@@ -1059,6 +1074,8 @@ def parse_args():
     parser.add_argument('--no_wandb_logging', help='whether to not use wandb', action='store_true', default=False)
     parser.add_argument('--wandb_project', help='WandB project name', default='huggingface')
     parser.add_argument("--local_rank", help='passed by deepspeed', type=int, default=0)
+    uniq_run_id = gen_uniq_run_id()
+    parser.add_argument("--run_id", help='pass generated run id using bash to avoid each node setting its own run id', default=uniq_run_id)
     
     args = parser.parse_args()
     return args
@@ -1067,8 +1084,9 @@ def parse_args():
 if __name__ == "__main__":
     
     args = parse_args()
-    unique_run_id = str(gen_uniq_run_id())
+    unique_run_id = str(args.run_id)
     print("Unique run ID: " + unique_run_id)
+    model_name = args.model_checkpoint.split("/")[-1]
     if args.no_wandb_logging == False:
         wandb_config = dict(store_data_files=args.store_data_files, 
                         data_dirpath=args.data_dirpath, 
@@ -1087,8 +1105,10 @@ if __name__ == "__main__":
                         eval_steps=args.eval_steps,
                         logging_steps=args.logging_steps,
                         no_wandb_logging=args.no_wandb_logging,
-                        wandb_project=args.wandb_project)
-        wandb.init(project=args.wandb_project, config=wandb_config)
+                        wandb_project=args.wandb_project,
+                        local_rank=args.local_rank,
+                        run_id=args.run_id)
+        wandb.init(group=f"{model_name}-{args.max_learning_rate}-lr-{args.test_datasets}-test-{unique_run_id}", project=args.wandb_project, config=wandb_config)
         wandb.run.name = unique_run_id
         print(f"WandB project: {args.wandb_project}")
     print(f"Data directory: {args.data_dirpath}")
@@ -1142,7 +1162,6 @@ if __name__ == "__main__":
     print("\n\nMax prompt input ids length:", max_input_len, "\n\n")
 
     print("Final training data ready!")
-    model_name = args.model_checkpoint.split("/")[-1]
     output_dir = os.path.join(args.models_save_dirpath, f"{model_name}-{args.max_learning_rate}-lr-{args.test_datasets}-test-{unique_run_id}")
     
     deepspeed_config = {
@@ -1168,14 +1187,13 @@ if __name__ == "__main__":
         "train_micro_batch_size_per_gpu": "auto",
         "gradient_accumulation_steps": "auto",
         "gradient_clipping": "auto",
-        
     }
     
     seq2seqargs = Seq2SeqTrainingArguments(
         output_dir=output_dir,
         num_train_epochs=int(args.num_epochs),
-        evaluation_strategy="steps",
-        eval_steps=int(args.eval_steps),
+        evaluation_strategy="epoch",
+#         eval_steps=int(args.eval_steps),
         per_device_train_batch_size=int(args.train_batch_size),
         per_device_eval_batch_size=int(args.eval_batch_size),
         gradient_accumulation_steps=int(args.gradient_accumulation_steps),
@@ -1184,8 +1202,10 @@ if __name__ == "__main__":
         logging_strategy="steps",
         logging_first_step=False,
         logging_steps=int(args.logging_steps),
-        save_strategy="steps",
-        save_steps=int(args.save_steps),
+        save_strategy="epoch",
+#         save_steps=int(args.save_steps),
+        save_total_limit=2,
+        load_best_model_at_end=True,
         seed=RANDOM_SEED,
         data_seed=RANDOM_SEED,
         fp16=False,
@@ -1195,7 +1215,7 @@ if __name__ == "__main__":
     )
     print(f"\nStoring run config in {output_dir}")
     if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+        os.makedirs(output_dir, exist_ok=True)
     with open(os.path.join(output_dir, "run_config.txt"), "w") as f1:
         f1.write("Unique run ID: " + str(unique_run_id) + "\n")
         f1.write("WandB project: " + str(args.wandb_project) + "\n")
