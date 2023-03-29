@@ -56,4 +56,6 @@ deepspeed --include=localhost:0,1,2,3 process_data_and_train.py \
 	--eval_steps 2000 \
 	--logging_steps 200 \
 	--max_learning_rate 5e-5 \
-	--num_epochs 5
+	--num_epochs 5 \
+    
+echo "Done!"
