@@ -1023,15 +1023,15 @@ def preprocess_tokenize(datapoints, tokenizer, max_input_length, max_target_leng
 def get_train_test_splits(all_dataset_dicts, args_test_datasets, val_data_fraction, tokenizer, max_input_length=1024, max_target_length=10):
     test_datasets_names = [dataset for dataset in args_test_datasets.split(",")]
     print("Test Datasets: ", test_datasets_names)
-    test_combine_list = []
+    test_combine_dict = {}
     trainval_combine_list = []
     for key in all_dataset_dicts.keys():
         if key in test_datasets_names:
-            test_combine_list.append(all_dataset_dicts[key])
+            test_combine_dict[key] = all_dataset_dicts[key]
         else:
             trainval_combine_list.append(all_dataset_dicts[key])
     trainval_combined = combine_training_format_datasets(trainval_combine_list)
-    test_combined = combine_test_format_datasets(test_combine_list)
+    test_combined = combine_test_format_datasets(test_combine_dict)
     
     trainval_dataset = Dataset.from_generator(train_data_gen, gen_kwargs={"train_combined": trainval_combined})
     test_dataset = Dataset.from_generator(test_data_gen, gen_kwargs={"test_combined": test_combined})
