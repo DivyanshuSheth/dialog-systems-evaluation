@@ -1,2 +1,2 @@
 # dialog-systems-evaluation
-Improving evaluation of dialog systems using GPT-3
+Improving evaluation of dialog systems using LLMs
